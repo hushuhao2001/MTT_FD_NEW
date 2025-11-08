@@ -1,0 +1,147 @@
+CUDNN STATUS: True
+feature_strategy:  mean
+Files already downloaded and verified
+Files already downloaded and verified
+Train ZCA
+Test ZCA
+Hyper-parameters: 
+ {'dataset': 'CIFAR100', 'subset': 'imagenette', 'model': 'ConvNet', 'res': 128, 'ipc': 9, 'eval_mode': 'S', 'num_eval': 1, 'eval_it': 100, 'epoch_eval_train': 1000, 'Iteration': 15000, 'lr_img': 100.0, 'lr_lr': 1e-05, 'lr_teacher': 0.01, 'lr_init': 0.01, 'batch_real': 256, 'batch_syn': 900, 'batch_train': 256, 'pix_init': 'real', 'dsa': True, 'dsa_strategy': 'color_crop_cutout_flip_scale_rotate', 'data_path': './data', 'buffer_path': './buffers', 'expert_epochs': 3, 'syn_steps': 20, 'max_start_epoch': 20, 'zca': True, 'load_all': False, 'no_aug': False, 'texture': False, 'canvas_size': 2, 'canvas_samples': 1, 'tta': 'hflip', 'max_files': None, 'max_experts': None, 'force_save': False, 'lbd': 0.001, 'lr_feat': 0.1, 'layer_idx': 3, 'pooling': 'avg', 'feat_lbd': 0.0005, 'feat_opt': 'SGD', 'n_feat': 3, 'eval_freq': 4, 'use_feature': 'mean', 'feat_norm': False, 'contrast': False, 'lbd_contrast': 0.1, 'feat_metric': 'MSE', 'img_method': 'MTT', 'img_path': '../distilled_data', 'res_path': './results', 'soft_label': 0.0, 'img_best_path': '/data/hushuhao-20251019/projects/MTT_FD/distilled_data/MTT/CIFAR100/IPC9_official/images_best.pt', 'label_best_path': '/data/hushuhao-20251019/projects/MTT_FD/distilled_data/MTT/CIFAR100/IPC9_official/labels_best.pt', 'device': 'cuda', 'zca_trans': ZCAWhitening(), 'im_size': (32, 32), 'dc_aug_param': None, 'dsa_param': <utils.ParamDiffAug object at 0x7f4fccfbf0d0>, 'distributed': False}
+Evaluation model pool:  ['ConvNet']
+BUILDING DATASET
+class c = 0: 500 real images
+class c = 1: 500 real images
+class c = 2: 500 real images
+class c = 3: 500 real images
+class c = 4: 500 real images
+class c = 5: 500 real images
+class c = 6: 500 real images
+class c = 7: 500 real images
+class c = 8: 500 real images
+class c = 9: 500 real images
+class c = 10: 500 real images
+class c = 11: 500 real images
+class c = 12: 500 real images
+class c = 13: 500 real images
+class c = 14: 500 real images
+class c = 15: 500 real images
+class c = 16: 500 real images
+class c = 17: 500 real images
+class c = 18: 500 real images
+class c = 19: 500 real images
+class c = 20: 500 real images
+class c = 21: 500 real images
+class c = 22: 500 real images
+class c = 23: 500 real images
+class c = 24: 500 real images
+class c = 25: 500 real images
+class c = 26: 500 real images
+class c = 27: 500 real images
+class c = 28: 500 real images
+class c = 29: 500 real images
+class c = 30: 500 real images
+class c = 31: 500 real images
+class c = 32: 500 real images
+class c = 33: 500 real images
+class c = 34: 500 real images
+class c = 35: 500 real images
+class c = 36: 500 real images
+class c = 37: 500 real images
+class c = 38: 500 real images
+class c = 39: 500 real images
+class c = 40: 500 real images
+class c = 41: 500 real images
+class c = 42: 500 real images
+class c = 43: 500 real images
+class c = 44: 500 real images
+class c = 45: 500 real images
+class c = 46: 500 real images
+class c = 47: 500 real images
+class c = 48: 500 real images
+class c = 49: 500 real images
+class c = 50: 500 real images
+class c = 51: 500 real images
+class c = 52: 500 real images
+class c = 53: 500 real images
+class c = 54: 500 real images
+class c = 55: 500 real images
+class c = 56: 500 real images
+class c = 57: 500 real images
+class c = 58: 500 real images
+class c = 59: 500 real images
+class c = 60: 500 real images
+class c = 61: 500 real images
+class c = 62: 500 real images
+class c = 63: 500 real images
+class c = 64: 500 real images
+class c = 65: 500 real images
+class c = 66: 500 real images
+class c = 67: 500 real images
+class c = 68: 500 real images
+class c = 69: 500 real images
+class c = 70: 500 real images
+class c = 71: 500 real images
+class c = 72: 500 real images
+class c = 73: 500 real images
+class c = 74: 500 real images
+class c = 75: 500 real images
+class c = 76: 500 real images
+class c = 77: 500 real images
+class c = 78: 500 real images
+class c = 79: 500 real images
+class c = 80: 500 real images
+class c = 81: 500 real images
+class c = 82: 500 real images
+class c = 83: 500 real images
+class c = 84: 500 real images
+class c = 85: 500 real images
+class c = 86: 500 real images
+class c = 87: 500 real images
+class c = 88: 500 real images
+class c = 89: 500 real images
+class c = 90: 500 real images
+class c = 91: 500 real images
+class c = 92: 500 real images
+class c = 93: 500 real images
+class c = 94: 500 real images
+class c = 95: 500 real images
+class c = 96: 500 real images
+class c = 97: 500 real images
+class c = 98: 500 real images
+class c = 99: 500 real images
+real images channel 0, mean = 0.0000, std = 0.2707
+real images channel 1, mean = 0.0000, std = 0.2555
+real images channel 2, mean = -0.0000, std = 0.2647
+================================================================================
+Loading pretrained synthetic images and labels...
+Using custom image path: /data/hushuhao-20251019/projects/MTT_FD/distilled_data/MTT/CIFAR100/IPC9_official/images_best.pt
+Using custom label path: /data/hushuhao-20251019/projects/MTT_FD/distilled_data/MTT/CIFAR100/IPC9_official/labels_best.pt
+✅ Loaded images, shape: torch.Size([900, 3, 32, 32])
+✅ Loaded labels, shape: torch.Size([900])
+✅ Data verification passed!
+================================================================================
+Initializing 3 feature labels from well-trained networks...
+This will take some time (training each network for 50 epochs)...
+================================================================================
+
+[Feature 1/3] Training expert network...
+  Epoch [10/50] Loss: 1.8913, Acc: 0.51%
+  Epoch [20/50] Loss: 1.3983, Acc: 0.63%
+  Epoch [30/50] Loss: 1.1320, Acc: 0.70%
+  Epoch [40/50] Loss: 0.9645, Acc: 0.74%
+  Epoch [50/50] Loss: 0.8245, Acc: 0.78%
+  Final training accuracy: 0.78%
+  Extracted feature shape: torch.Size([900, 128, 4, 4])
+
+[Feature 2/3] Training expert network...
+  Epoch [10/50] Loss: 1.8737, Acc: 0.51%
+  Epoch [20/50] Loss: 1.3900, Acc: 0.63%
+  Epoch [30/50] Loss: 1.1176, Acc: 0.70%
+  Epoch [40/50] Loss: 0.9748, Acc: 0.73%
+  Epoch [50/50] Loss: 0.8264, Acc: 0.78%
+  Final training accuracy: 0.78%
+  Extracted feature shape: torch.Size([900, 128, 4, 4])
+
+[Feature 3/3] Training expert network...
+  Epoch [10/50] Loss: 1.8831, Acc: 0.51%
+  Epoch [20/50] Loss: 1.3912, Acc: 0.63%
+  Epoch [30/50] Loss: 1.1404, Acc: 0.69%

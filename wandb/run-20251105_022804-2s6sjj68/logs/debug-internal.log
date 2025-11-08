@@ -1,0 +1,868 @@
+2025-11-05 02:28:04,656 INFO    MainThread:3926539 [internal.py:wandb_internal():92] W&B internal server running at pid: 3926539, started at: 2025-11-05 02:28:04.655700
+2025-11-05 02:28:04,657 INFO    WriterThread:3926539 [datastore.py:open_for_write():77] open: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/run-2s6sjj68.wandb
+2025-11-05 02:28:04,659 DEBUG   SenderThread:3926539 [sender.py:send():235] send: header
+2025-11-05 02:28:04,659 DEBUG   SenderThread:3926539 [sender.py:send():235] send: run
+2025-11-05 02:28:05,312 INFO    SenderThread:3926539 [dir_watcher.py:__init__():169] watching files in: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files
+2025-11-05 02:28:05,312 INFO    SenderThread:3926539 [sender.py:_start_run_threads():812] run started: 2s6sjj68 with start time 1762280884
+2025-11-05 02:28:05,315 DEBUG   SenderThread:3926539 [sender.py:send():235] send: summary
+2025-11-05 02:28:05,315 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: check_version
+2025-11-05 02:28:05,315 INFO    SenderThread:3926539 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2025-11-05 02:28:05,316 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: check_version
+2025-11-05 02:28:06,313 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_created():217] file/dir created: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/wandb-summary.json
+2025-11-05 02:28:06,557 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: run_start
+2025-11-05 02:28:06,611 DEBUG   HandlerThread:3926539 [meta.py:__init__():37] meta init
+2025-11-05 02:28:06,611 DEBUG   HandlerThread:3926539 [meta.py:__init__():51] meta init done
+2025-11-05 02:28:06,611 DEBUG   HandlerThread:3926539 [meta.py:probe():211] probe
+2025-11-05 02:28:06,619 DEBUG   HandlerThread:3926539 [git.py:repo():33] git repository is invalid
+2025-11-05 02:28:06,619 DEBUG   HandlerThread:3926539 [meta.py:_save_pip():55] save pip
+2025-11-05 02:28:06,620 DEBUG   HandlerThread:3926539 [meta.py:_save_pip():69] save pip done
+2025-11-05 02:28:06,620 DEBUG   HandlerThread:3926539 [meta.py:_save_conda():76] save conda
+2025-11-05 02:28:07,313 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_created():217] file/dir created: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/conda-environment.yaml
+2025-11-05 02:28:07,313 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_created():217] file/dir created: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/requirements.txt
+2025-11-05 02:28:07,556 DEBUG   HandlerThread:3926539 [meta.py:_save_conda():86] save conda done
+2025-11-05 02:28:07,557 DEBUG   HandlerThread:3926539 [meta.py:probe():249] probe done
+2025-11-05 02:28:07,563 DEBUG   SenderThread:3926539 [sender.py:send():235] send: files
+2025-11-05 02:28:07,564 INFO    SenderThread:3926539 [sender.py:_save_file():947] saving file wandb-metadata.json with policy now
+2025-11-05 02:28:07,574 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:28:07,575 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:28:08,202 DEBUG   SenderThread:3926539 [sender.py:send():235] send: telemetry
+2025-11-05 02:28:08,313 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/conda-environment.yaml
+2025-11-05 02:28:08,313 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_created():217] file/dir created: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:28:08,313 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_created():217] file/dir created: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/wandb-metadata.json
+2025-11-05 02:28:08,690 INFO    Thread-11 :3926539 [upload_job.py:push():137] Uploaded file /tmp/tmpy0wh6ubcwandb/1dbin71z-wandb-metadata.json
+2025-11-05 02:28:08,752 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: partial_history
+2025-11-05 02:28:10,314 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:28:14,317 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:28:16,317 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:28:18,318 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:28:20,318 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:28:22,320 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:28:23,205 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:28:23,205 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:28:24,328 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:28:26,322 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:28:28,323 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:28:30,324 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:28:32,325 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:28:34,326 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:28:36,326 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/config.yaml
+2025-11-05 02:28:36,327 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:28:38,327 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:28:38,780 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:28:38,780 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:28:39,647 DEBUG   SenderThread:3926539 [sender.py:send():235] send: stats
+2025-11-05 02:28:40,328 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:28:42,329 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:28:44,329 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:28:46,330 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:28:48,331 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:28:50,332 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:28:52,333 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:28:54,334 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:28:54,611 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:28:54,615 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:28:56,335 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:28:58,336 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:29:00,336 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:29:02,337 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:29:04,338 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:29:06,339 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:29:08,339 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:29:10,130 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:29:10,130 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:29:10,340 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:29:12,341 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:29:14,342 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:29:14,784 DEBUG   SenderThread:3926539 [sender.py:send():235] send: stats
+2025-11-05 02:29:16,343 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:29:18,344 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:29:20,345 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:29:22,345 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:29:24,346 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:29:25,545 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:29:25,545 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:29:26,347 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:29:28,348 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:29:30,348 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:29:32,350 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:29:34,350 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:29:36,351 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:29:38,351 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:29:40,352 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:29:41,043 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:29:41,044 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:29:42,353 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:29:44,354 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:29:46,355 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:29:48,356 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:29:50,052 DEBUG   SenderThread:3926539 [sender.py:send():235] send: stats
+2025-11-05 02:29:50,357 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:29:52,358 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:29:54,359 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:29:56,359 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:29:56,869 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:29:56,870 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:29:58,361 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:30:00,361 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:30:02,362 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:30:04,363 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:30:06,363 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:30:08,369 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:30:10,370 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:30:12,371 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:30:12,437 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:30:12,437 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:30:14,372 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:30:16,373 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:30:18,373 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:30:20,374 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:30:22,375 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:30:24,376 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:30:25,276 DEBUG   SenderThread:3926539 [sender.py:send():235] send: stats
+2025-11-05 02:30:26,376 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:30:28,195 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:30:28,195 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:30:28,377 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:30:30,378 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:30:32,379 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:30:34,380 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:30:36,381 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:30:38,381 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:30:40,382 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:30:42,382 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:30:43,982 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:30:43,982 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:30:44,383 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:30:46,384 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:30:48,385 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:30:50,386 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:30:52,387 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:30:54,388 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:30:56,389 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:30:58,389 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:30:59,484 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:30:59,484 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:31:00,390 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:31:00,771 DEBUG   SenderThread:3926539 [sender.py:send():235] send: stats
+2025-11-05 02:31:02,391 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:31:04,392 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:31:06,393 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:31:08,393 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:31:10,394 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:31:12,395 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:31:14,396 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:31:15,511 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:31:15,512 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:31:16,397 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:31:18,398 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:31:20,399 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:31:22,400 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:31:24,401 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:31:26,402 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:31:28,403 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:31:30,404 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:31:31,159 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:31:31,159 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:31:32,405 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:31:34,405 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:31:35,772 DEBUG   SenderThread:3926539 [sender.py:send():235] send: stats
+2025-11-05 02:31:36,406 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:31:38,407 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:31:40,408 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:31:42,408 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:31:44,409 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:31:46,410 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:31:46,777 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:31:46,778 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:31:48,411 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:31:50,412 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:31:52,412 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:31:54,414 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:31:56,415 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:31:58,416 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:32:00,416 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:32:02,417 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:32:03,560 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:32:03,560 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:32:04,419 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:32:06,419 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:32:08,420 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:32:10,421 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:32:11,338 DEBUG   SenderThread:3926539 [sender.py:send():235] send: stats
+2025-11-05 02:32:12,422 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:32:14,423 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:32:16,425 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:32:18,425 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:32:19,159 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:32:19,159 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:32:20,429 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:32:22,429 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:32:24,431 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:32:26,431 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:32:28,432 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:32:30,433 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:32:32,434 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:32:34,435 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:32:34,779 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:32:34,780 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:32:36,436 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:32:38,436 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:32:40,437 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:32:42,438 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:32:44,439 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:32:46,439 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:32:46,492 DEBUG   SenderThread:3926539 [sender.py:send():235] send: stats
+2025-11-05 02:32:48,440 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:32:50,441 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:32:51,431 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:32:51,432 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:32:52,441 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:32:54,442 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:32:56,443 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:32:58,443 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:33:00,445 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:33:02,446 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:33:04,447 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:33:06,447 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:33:07,175 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:33:07,175 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:33:08,448 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:33:10,449 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:33:12,450 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:33:14,450 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:33:16,451 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:33:18,452 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:33:20,453 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:33:21,693 DEBUG   SenderThread:3926539 [sender.py:send():235] send: stats
+2025-11-05 02:33:22,454 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:33:23,037 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:33:23,038 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:33:24,455 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:33:26,456 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:33:28,457 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:33:30,458 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:33:32,459 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:33:34,460 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:33:36,461 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:33:38,462 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:33:38,634 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:33:38,634 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:33:40,463 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:33:42,464 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:33:44,465 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:33:46,466 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:33:48,466 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:33:50,467 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:33:52,468 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:33:54,105 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:33:54,105 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:33:54,469 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:33:56,470 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:33:57,058 DEBUG   SenderThread:3926539 [sender.py:send():235] send: stats
+2025-11-05 02:33:58,470 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:34:00,471 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:34:02,473 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:34:04,474 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:34:06,474 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:34:08,475 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:34:09,835 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:34:09,836 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:34:10,476 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:34:12,477 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:34:14,477 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:34:16,479 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:34:18,480 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:34:20,481 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:34:22,481 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:34:24,483 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:34:25,779 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:34:25,779 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:34:26,484 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:34:28,485 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:34:30,485 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:34:32,050 DEBUG   SenderThread:3926539 [sender.py:send():235] send: stats
+2025-11-05 02:34:32,486 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:34:34,487 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:34:36,488 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:34:38,488 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:34:40,489 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:34:41,386 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:34:41,387 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:34:42,490 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:34:44,491 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:34:46,491 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:34:48,492 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:34:50,493 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:34:52,493 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:34:54,494 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:34:56,495 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:34:57,201 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:34:57,202 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:34:58,496 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:35:00,496 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:35:02,501 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:35:04,502 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:35:06,503 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:35:07,304 DEBUG   SenderThread:3926539 [sender.py:send():235] send: stats
+2025-11-05 02:35:08,504 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:35:10,505 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:35:12,506 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:35:12,968 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:35:12,968 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:35:14,507 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:35:16,520 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:35:18,508 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:35:20,509 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:35:22,509 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:35:24,511 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:35:26,511 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:35:28,435 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:35:28,435 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:35:28,512 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:35:30,515 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:35:32,515 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:35:34,516 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:35:36,517 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:35:38,518 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:35:40,519 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:35:42,448 DEBUG   SenderThread:3926539 [sender.py:send():235] send: stats
+2025-11-05 02:35:42,520 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:35:44,521 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:35:44,572 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:35:44,572 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:35:46,522 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:35:48,523 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:35:50,523 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:35:52,524 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:35:54,525 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:35:56,527 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:35:58,527 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:36:00,024 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:36:00,025 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:36:00,528 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:36:02,529 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:36:04,530 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:36:06,531 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:36:08,531 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:36:10,532 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:36:12,533 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:36:14,534 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:36:15,614 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:36:15,615 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:36:16,535 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:36:17,708 DEBUG   SenderThread:3926539 [sender.py:send():235] send: stats
+2025-11-05 02:36:18,536 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:36:20,537 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:36:22,537 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:36:24,538 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:36:26,539 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:36:28,540 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:36:30,541 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:36:31,152 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:36:31,152 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:36:32,542 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:36:34,543 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:36:36,544 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:36:38,546 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:36:40,547 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:36:42,548 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:36:44,549 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:36:46,550 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:36:46,927 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:36:46,927 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:36:48,551 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:36:50,552 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:36:52,552 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:36:52,973 DEBUG   SenderThread:3926539 [sender.py:send():235] send: stats
+2025-11-05 02:36:54,553 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:36:56,554 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:36:58,554 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:37:00,556 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:37:02,360 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:37:02,360 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:37:02,556 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:37:04,557 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:37:06,558 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:37:08,559 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:37:10,560 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:37:12,561 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:37:14,562 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:37:16,562 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:37:17,866 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:37:17,866 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:37:18,563 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:37:20,565 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:37:22,566 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:37:24,566 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:37:26,567 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:37:28,072 DEBUG   SenderThread:3926539 [sender.py:send():235] send: stats
+2025-11-05 02:37:28,568 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:37:30,569 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:37:32,570 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:37:33,502 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:37:33,502 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:37:34,571 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:37:36,572 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:37:38,572 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:37:40,574 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:37:42,575 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:37:44,575 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:37:46,576 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:37:48,577 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:37:48,980 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:37:48,980 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:37:50,578 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:37:52,578 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:37:54,580 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:37:56,581 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:37:58,581 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:38:00,582 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:38:02,583 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:38:03,279 DEBUG   SenderThread:3926539 [sender.py:send():235] send: stats
+2025-11-05 02:38:04,584 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:38:04,605 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:38:04,605 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:38:06,585 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:38:08,585 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:38:10,587 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:38:12,588 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:38:14,588 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:38:16,589 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:38:18,590 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:38:20,590 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:38:21,703 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:38:21,703 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:38:22,592 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:38:24,593 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:38:26,593 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:38:28,595 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:38:30,595 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:38:32,597 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:38:34,597 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:38:36,598 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:38:37,315 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:38:37,315 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:38:38,477 DEBUG   SenderThread:3926539 [sender.py:send():235] send: stats
+2025-11-05 02:38:38,599 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:38:40,600 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:38:42,601 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:38:44,601 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:38:46,602 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:38:48,603 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:38:50,604 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:38:52,605 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:38:52,921 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:38:52,922 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:38:54,606 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:38:56,607 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:38:58,607 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:39:00,608 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:39:02,609 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:39:04,610 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:39:06,611 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:39:08,612 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:39:09,202 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:39:09,203 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:39:10,613 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:39:12,614 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:39:13,722 DEBUG   SenderThread:3926539 [sender.py:send():235] send: stats
+2025-11-05 02:39:14,615 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:39:16,615 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:39:18,616 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:39:20,617 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:39:22,618 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:39:24,619 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:39:24,811 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:39:24,812 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:39:26,620 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:39:28,620 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:39:30,621 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:39:32,622 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:39:34,623 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:39:36,624 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:39:38,625 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:39:40,405 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:39:40,405 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:39:40,626 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:39:42,627 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:39:45,628 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:39:47,630 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:39:48,797 DEBUG   SenderThread:3926539 [sender.py:send():235] send: stats
+2025-11-05 02:39:49,630 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:39:51,631 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:39:53,632 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:39:55,633 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:39:55,997 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:39:55,997 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:39:57,634 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:39:59,635 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:40:01,636 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:40:03,637 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:40:05,637 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:40:07,638 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:40:09,640 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:40:11,491 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:40:11,491 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:40:11,640 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:40:13,641 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:40:15,642 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:40:17,643 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:40:19,644 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:40:21,644 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:40:23,645 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:40:23,777 DEBUG   SenderThread:3926539 [sender.py:send():235] send: stats
+2025-11-05 02:40:25,646 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:40:27,273 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:40:27,273 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:40:27,647 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:40:29,648 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:40:31,649 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:40:33,649 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:40:35,651 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:40:37,651 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:40:39,652 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:40:41,652 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:40:42,821 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:40:42,822 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:40:43,653 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:40:45,654 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:40:47,655 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:40:49,656 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:40:51,656 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:40:53,657 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:40:55,658 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:40:57,659 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:40:58,613 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:40:58,614 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:40:59,121 DEBUG   SenderThread:3926539 [sender.py:send():235] send: stats
+2025-11-05 02:40:59,660 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:41:01,661 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:41:03,661 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:41:05,662 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:41:07,663 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:41:09,666 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:41:11,667 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:41:13,668 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:41:14,126 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:41:14,126 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:41:15,670 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:41:17,670 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:41:19,671 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:41:21,672 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:41:23,674 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:41:25,674 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:41:27,675 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:41:29,676 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:41:29,689 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:41:29,690 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:41:31,676 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:41:33,678 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:41:33,995 DEBUG   SenderThread:3926539 [sender.py:send():235] send: stats
+2025-11-05 02:41:35,679 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:41:36,679 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:41:37,679 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:41:39,680 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:41:41,681 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:41:43,682 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:41:45,683 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:41:45,775 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:41:45,776 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:41:47,684 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:41:49,684 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:41:51,685 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:41:53,686 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:41:55,687 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:41:57,688 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:41:59,688 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:42:01,632 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:42:01,633 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:42:01,689 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:42:03,690 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:42:05,691 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:42:07,692 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:42:09,181 DEBUG   SenderThread:3926539 [sender.py:send():235] send: stats
+2025-11-05 02:42:09,693 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:42:11,694 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:42:13,695 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:42:15,696 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:42:17,144 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:42:17,144 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:42:17,696 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:42:19,697 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:42:21,698 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:42:23,699 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:42:25,701 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:42:27,702 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:42:29,703 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:42:31,704 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:42:32,732 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:42:32,733 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:42:33,705 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:42:35,706 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:42:37,706 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:42:39,707 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:42:41,709 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:42:43,709 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:42:44,436 DEBUG   SenderThread:3926539 [sender.py:send():235] send: stats
+2025-11-05 02:42:45,710 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:42:47,715 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:42:48,914 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:42:48,915 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:42:49,715 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:42:51,716 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:42:53,717 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:42:55,718 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:42:57,719 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:42:59,720 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:43:01,721 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:43:03,721 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:43:04,512 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:43:04,513 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:43:05,722 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:43:07,723 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:43:09,724 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:43:11,725 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:43:13,725 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:43:15,726 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:43:17,727 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:43:19,654 DEBUG   SenderThread:3926539 [sender.py:send():235] send: stats
+2025-11-05 02:43:19,728 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:43:20,301 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:43:20,302 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:43:21,729 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:43:23,730 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:43:25,731 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:43:27,731 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:43:29,733 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:43:31,734 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:43:33,734 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:43:35,735 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:43:35,748 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:43:35,749 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:43:37,736 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:43:39,737 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:43:41,738 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:43:43,738 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:43:45,739 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:43:47,741 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:43:49,741 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:43:51,183 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:43:51,184 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:43:51,742 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:43:53,743 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:43:55,053 DEBUG   SenderThread:3926539 [sender.py:send():235] send: stats
+2025-11-05 02:43:55,744 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:43:57,745 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:43:59,746 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:44:01,746 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:44:03,747 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:44:05,748 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:44:07,006 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:44:07,007 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:44:07,749 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:44:09,750 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:44:11,751 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:44:13,751 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:44:15,752 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:44:17,753 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:44:19,754 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:44:21,755 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:44:22,608 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:44:22,609 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:44:23,755 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:44:25,756 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:44:27,757 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:44:28,429 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: partial_history
+2025-11-05 02:44:28,430 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: partial_history
+2025-11-05 02:44:28,430 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: partial_history
+2025-11-05 02:44:28,430 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: partial_history
+2025-11-05 02:44:28,904 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: partial_history
+2025-11-05 02:44:29,758 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:44:29,938 DEBUG   SenderThread:3926539 [sender.py:send():235] send: stats
+2025-11-05 02:44:35,157 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: partial_history
+2025-11-05 02:44:35,157 DEBUG   SenderThread:3926539 [sender.py:send():235] send: files
+2025-11-05 02:44:35,158 INFO    SenderThread:3926539 [sender.py:_save_file():947] saving file media/images/Synthetic_Images_0_2c033b2c94e679666fcd.png with policy now
+2025-11-05 02:44:35,352 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: partial_history
+2025-11-05 02:44:35,762 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_created():217] file/dir created: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/media/images/Synthetic_Images_0_2c033b2c94e679666fcd.png
+2025-11-05 02:44:35,762 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_created():217] file/dir created: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/media
+2025-11-05 02:44:35,762 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_created():217] file/dir created: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/media/images
+2025-11-05 02:44:38,175 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:44:38,175 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:44:38,624 INFO    Thread-12 :3926539 [upload_job.py:push():137] Uploaded file /tmp/tmpy0wh6ubcwandb/2n4hqdwc-media/images/Synthetic_Images_0_2c033b2c94e679666fcd.png
+2025-11-05 02:44:41,541 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: partial_history
+2025-11-05 02:44:41,541 DEBUG   SenderThread:3926539 [sender.py:send():235] send: files
+2025-11-05 02:44:41,541 INFO    SenderThread:3926539 [sender.py:_save_file():947] saving file media/images/Clipped_Synthetic_Images/std_2.5_0_b8d68d1cab984f8711e8.png with policy now
+2025-11-05 02:44:41,765 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_created():217] file/dir created: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/media/images/Clipped_Synthetic_Images/std_2.5_0_b8d68d1cab984f8711e8.png
+2025-11-05 02:44:41,765 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/media/images
+2025-11-05 02:44:41,765 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_created():217] file/dir created: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/media/images/Clipped_Synthetic_Images
+2025-11-05 02:44:44,686 INFO    Thread-13 :3926539 [upload_job.py:push():137] Uploaded file /tmp/tmpy0wh6ubcwandb/2aznvrpc-media/images/Clipped_Synthetic_Images/std_2.5_0_b8d68d1cab984f8711e8.png
+2025-11-05 02:44:47,807 DEBUG   SenderThread:3926539 [sender.py:send():235] send: files
+2025-11-05 02:44:47,807 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: partial_history
+2025-11-05 02:44:47,808 INFO    SenderThread:3926539 [sender.py:_save_file():947] saving file media/images/Reconstructed_Images_0_6c2625f65bb2b5e8f2dd.png with policy now
+2025-11-05 02:44:48,039 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: partial_history
+2025-11-05 02:44:48,770 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_created():217] file/dir created: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/media/images/Reconstructed_Images_0_6c2625f65bb2b5e8f2dd.png
+2025-11-05 02:44:48,770 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/media/images
+2025-11-05 02:44:53,713 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: stop_status
+2025-11-05 02:44:53,714 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: stop_status
+2025-11-05 02:44:54,122 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: partial_history
+2025-11-05 02:44:54,122 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: partial_history
+2025-11-05 02:44:54,371 DEBUG   SenderThread:3926539 [sender.py:send():235] send: files
+2025-11-05 02:44:54,372 INFO    SenderThread:3926539 [sender.py:_save_file():947] saving file media/images/Clipped_Reconstructed_Images/std_2.5_0_6c2625f65bb2b5e8f2dd.png with policy now
+2025-11-05 02:44:54,774 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_created():217] file/dir created: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/media/images/Clipped_Reconstructed_Images/std_2.5_0_6c2625f65bb2b5e8f2dd.png
+2025-11-05 02:44:54,774 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/media/images
+2025-11-05 02:44:54,774 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_created():217] file/dir created: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/media/images/Clipped_Reconstructed_Images
+2025-11-05 02:44:55,306 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: partial_history
+2025-11-05 02:44:55,307 DEBUG   SenderThread:3926539 [sender.py:send():235] send: telemetry
+2025-11-05 02:44:55,313 DEBUG   SenderThread:3926539 [sender.py:send():235] send: history
+2025-11-05 02:44:55,314 DEBUG   SenderThread:3926539 [sender.py:send():235] send: summary
+2025-11-05 02:44:55,316 INFO    SenderThread:3926539 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2025-11-05 02:44:55,774 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/wandb-summary.json
+2025-11-05 02:44:55,933 INFO    Thread-14 :3926539 [upload_job.py:push():137] Uploaded file /tmp/tmpy0wh6ubcwandb/sd5b9hpv-media/images/Reconstructed_Images_0_6c2625f65bb2b5e8f2dd.png
+2025-11-05 02:44:56,774 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:44:57,619 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: poll_exit
+2025-11-05 02:44:57,620 DEBUG   SenderThread:3926539 [sender.py:send():235] send: exit
+2025-11-05 02:44:57,620 INFO    SenderThread:3926539 [sender.py:send_exit():371] handling exit code: 1
+2025-11-05 02:44:57,621 INFO    SenderThread:3926539 [sender.py:send_exit():373] handling runtime: 1011
+2025-11-05 02:44:57,622 INFO    SenderThread:3926539 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2025-11-05 02:44:57,623 INFO    SenderThread:3926539 [sender.py:send_exit():379] send defer
+2025-11-05 02:44:57,623 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: poll_exit
+2025-11-05 02:44:57,624 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: defer
+2025-11-05 02:44:57,624 INFO    HandlerThread:3926539 [handler.py:handle_request_defer():164] handle defer: 0
+2025-11-05 02:44:57,624 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: defer
+2025-11-05 02:44:57,624 INFO    SenderThread:3926539 [sender.py:send_request_defer():388] handle sender defer: 0
+2025-11-05 02:44:57,624 INFO    SenderThread:3926539 [sender.py:transition_state():392] send defer: 1
+2025-11-05 02:44:57,624 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: defer
+2025-11-05 02:44:57,624 INFO    HandlerThread:3926539 [handler.py:handle_request_defer():164] handle defer: 1
+2025-11-05 02:44:57,775 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/wandb-summary.json
+2025-11-05 02:44:57,775 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:44:57,933 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: defer
+2025-11-05 02:44:57,933 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: poll_exit
+2025-11-05 02:44:57,933 INFO    SenderThread:3926539 [sender.py:send_request_defer():388] handle sender defer: 1
+2025-11-05 02:44:57,934 INFO    SenderThread:3926539 [sender.py:transition_state():392] send defer: 2
+2025-11-05 02:44:57,934 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: poll_exit
+2025-11-05 02:44:57,934 DEBUG   SenderThread:3926539 [sender.py:send():235] send: stats
+2025-11-05 02:44:57,935 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: defer
+2025-11-05 02:44:57,935 INFO    HandlerThread:3926539 [handler.py:handle_request_defer():164] handle defer: 2
+2025-11-05 02:44:57,935 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: defer
+2025-11-05 02:44:57,935 INFO    SenderThread:3926539 [sender.py:send_request_defer():388] handle sender defer: 2
+2025-11-05 02:44:57,935 INFO    SenderThread:3926539 [sender.py:transition_state():392] send defer: 3
+2025-11-05 02:44:57,935 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: defer
+2025-11-05 02:44:57,935 INFO    HandlerThread:3926539 [handler.py:handle_request_defer():164] handle defer: 3
+2025-11-05 02:44:57,935 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: defer
+2025-11-05 02:44:57,935 INFO    SenderThread:3926539 [sender.py:send_request_defer():388] handle sender defer: 3
+2025-11-05 02:44:57,935 INFO    SenderThread:3926539 [sender.py:transition_state():392] send defer: 4
+2025-11-05 02:44:57,936 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: defer
+2025-11-05 02:44:57,936 INFO    HandlerThread:3926539 [handler.py:handle_request_defer():164] handle defer: 4
+2025-11-05 02:44:57,936 DEBUG   SenderThread:3926539 [sender.py:send():235] send: summary
+2025-11-05 02:44:57,937 INFO    SenderThread:3926539 [sender.py:_save_file():947] saving file wandb-summary.json with policy end
+2025-11-05 02:44:57,938 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: defer
+2025-11-05 02:44:57,938 INFO    SenderThread:3926539 [sender.py:send_request_defer():388] handle sender defer: 4
+2025-11-05 02:44:57,938 INFO    SenderThread:3926539 [sender.py:transition_state():392] send defer: 5
+2025-11-05 02:44:57,938 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: defer
+2025-11-05 02:44:57,938 INFO    HandlerThread:3926539 [handler.py:handle_request_defer():164] handle defer: 5
+2025-11-05 02:44:57,938 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: defer
+2025-11-05 02:44:57,938 INFO    SenderThread:3926539 [sender.py:send_request_defer():388] handle sender defer: 5
+2025-11-05 02:44:58,036 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: poll_exit
+2025-11-05 02:44:58,620 INFO    Thread-15 :3926539 [upload_job.py:push():137] Uploaded file /tmp/tmpy0wh6ubcwandb/91td1jzm-media/images/Clipped_Reconstructed_Images/std_2.5_0_6c2625f65bb2b5e8f2dd.png
+2025-11-05 02:44:58,661 INFO    SenderThread:3926539 [sender.py:transition_state():392] send defer: 6
+2025-11-05 02:44:58,661 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: poll_exit
+2025-11-05 02:44:58,662 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: defer
+2025-11-05 02:44:58,662 INFO    HandlerThread:3926539 [handler.py:handle_request_defer():164] handle defer: 6
+2025-11-05 02:44:58,662 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: defer
+2025-11-05 02:44:58,662 INFO    SenderThread:3926539 [sender.py:send_request_defer():388] handle sender defer: 6
+2025-11-05 02:44:58,662 INFO    SenderThread:3926539 [dir_watcher.py:finish():283] shutting down directory watcher
+2025-11-05 02:44:58,763 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: poll_exit
+2025-11-05 02:44:58,776 INFO    Thread-7  :3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/config.yaml
+2025-11-05 02:44:58,776 INFO    SenderThread:3926539 [dir_watcher.py:_on_file_modified():230] file/dir modified: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/wandb-summary.json
+2025-11-05 02:44:58,777 INFO    SenderThread:3926539 [dir_watcher.py:finish():313] scan: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files
+2025-11-05 02:44:58,777 INFO    SenderThread:3926539 [dir_watcher.py:finish():327] scan save: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/config.yaml config.yaml
+2025-11-05 02:44:58,777 INFO    SenderThread:3926539 [dir_watcher.py:finish():327] scan save: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/wandb-summary.json wandb-summary.json
+2025-11-05 02:44:58,777 INFO    SenderThread:3926539 [dir_watcher.py:finish():327] scan save: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/requirements.txt requirements.txt
+2025-11-05 02:44:58,778 INFO    SenderThread:3926539 [dir_watcher.py:finish():327] scan save: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/conda-environment.yaml conda-environment.yaml
+2025-11-05 02:44:58,778 INFO    SenderThread:3926539 [dir_watcher.py:finish():327] scan save: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/wandb-metadata.json wandb-metadata.json
+2025-11-05 02:44:58,778 INFO    SenderThread:3926539 [dir_watcher.py:finish():327] scan save: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log output.log
+2025-11-05 02:44:58,784 INFO    SenderThread:3926539 [dir_watcher.py:finish():327] scan save: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/media/images/Synthetic_Images_0_2c033b2c94e679666fcd.png media/images/Synthetic_Images_0_2c033b2c94e679666fcd.png
+2025-11-05 02:44:58,785 INFO    SenderThread:3926539 [dir_watcher.py:finish():327] scan save: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/media/images/Reconstructed_Images_0_6c2625f65bb2b5e8f2dd.png media/images/Reconstructed_Images_0_6c2625f65bb2b5e8f2dd.png
+2025-11-05 02:44:58,790 INFO    SenderThread:3926539 [dir_watcher.py:finish():327] scan save: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/media/images/Clipped_Synthetic_Images/std_2.5_0_b8d68d1cab984f8711e8.png media/images/Clipped_Synthetic_Images/std_2.5_0_b8d68d1cab984f8711e8.png
+2025-11-05 02:44:58,794 INFO    SenderThread:3926539 [dir_watcher.py:finish():327] scan save: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/media/images/Clipped_Reconstructed_Images/std_2.5_0_6c2625f65bb2b5e8f2dd.png media/images/Clipped_Reconstructed_Images/std_2.5_0_6c2625f65bb2b5e8f2dd.png
+2025-11-05 02:44:58,797 INFO    SenderThread:3926539 [sender.py:transition_state():392] send defer: 7
+2025-11-05 02:44:58,797 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: poll_exit
+2025-11-05 02:44:58,798 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: defer
+2025-11-05 02:44:58,799 INFO    HandlerThread:3926539 [handler.py:handle_request_defer():164] handle defer: 7
+2025-11-05 02:44:58,799 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: defer
+2025-11-05 02:44:58,799 INFO    SenderThread:3926539 [sender.py:send_request_defer():388] handle sender defer: 7
+2025-11-05 02:44:58,799 INFO    SenderThread:3926539 [file_pusher.py:finish():145] shutting down file pusher
+2025-11-05 02:44:58,899 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: poll_exit
+2025-11-05 02:44:58,899 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: poll_exit
+2025-11-05 02:44:59,001 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: poll_exit
+2025-11-05 02:44:59,001 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: poll_exit
+2025-11-05 02:44:59,103 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: poll_exit
+2025-11-05 02:44:59,103 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: poll_exit
+2025-11-05 02:44:59,205 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: poll_exit
+2025-11-05 02:44:59,205 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: poll_exit
+2025-11-05 02:44:59,307 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: poll_exit
+2025-11-05 02:44:59,307 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: poll_exit
+2025-11-05 02:44:59,408 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: poll_exit
+2025-11-05 02:44:59,409 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: poll_exit
+2025-11-05 02:44:59,512 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: poll_exit
+2025-11-05 02:44:59,512 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: poll_exit
+2025-11-05 02:44:59,614 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: poll_exit
+2025-11-05 02:44:59,614 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: poll_exit
+2025-11-05 02:44:59,716 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: poll_exit
+2025-11-05 02:44:59,716 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: poll_exit
+2025-11-05 02:44:59,817 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: poll_exit
+2025-11-05 02:44:59,818 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: poll_exit
+2025-11-05 02:44:59,920 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: poll_exit
+2025-11-05 02:44:59,920 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: poll_exit
+2025-11-05 02:44:59,941 INFO    Thread-19 :3926539 [upload_job.py:push():137] Uploaded file /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/conda-environment.yaml
+2025-11-05 02:45:00,022 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: poll_exit
+2025-11-05 02:45:00,022 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: poll_exit
+2025-11-05 02:45:00,124 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: poll_exit
+2025-11-05 02:45:00,124 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: poll_exit
+2025-11-05 02:45:00,189 INFO    Thread-16 :3926539 [upload_job.py:push():137] Uploaded file /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/config.yaml
+2025-11-05 02:45:00,226 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: poll_exit
+2025-11-05 02:45:00,226 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: poll_exit
+2025-11-05 02:45:00,301 INFO    Thread-18 :3926539 [upload_job.py:push():137] Uploaded file /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/requirements.txt
+2025-11-05 02:45:00,314 INFO    Thread-20 :3926539 [upload_job.py:push():137] Uploaded file /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/output.log
+2025-11-05 02:45:00,328 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: poll_exit
+2025-11-05 02:45:00,328 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: poll_exit
+2025-11-05 02:45:00,430 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: poll_exit
+2025-11-05 02:45:00,431 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: poll_exit
+2025-11-05 02:45:00,532 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: poll_exit
+2025-11-05 02:45:00,533 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: poll_exit
+2025-11-05 02:45:00,629 INFO    Thread-17 :3926539 [upload_job.py:push():137] Uploaded file /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/files/wandb-summary.json
+2025-11-05 02:45:00,634 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: poll_exit
+2025-11-05 02:45:00,635 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: poll_exit
+2025-11-05 02:45:00,736 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: poll_exit
+2025-11-05 02:45:00,737 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: poll_exit
+2025-11-05 02:45:00,831 INFO    Thread-6  :3926539 [sender.py:transition_state():392] send defer: 8
+2025-11-05 02:45:00,832 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: defer
+2025-11-05 02:45:00,832 INFO    HandlerThread:3926539 [handler.py:handle_request_defer():164] handle defer: 8
+2025-11-05 02:45:00,832 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: defer
+2025-11-05 02:45:00,832 INFO    SenderThread:3926539 [sender.py:send_request_defer():388] handle sender defer: 8
+2025-11-05 02:45:00,839 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: poll_exit
+2025-11-05 02:45:01,970 INFO    SenderThread:3926539 [sender.py:transition_state():392] send defer: 9
+2025-11-05 02:45:01,970 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: poll_exit
+2025-11-05 02:45:01,971 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: defer
+2025-11-05 02:45:01,971 INFO    HandlerThread:3926539 [handler.py:handle_request_defer():164] handle defer: 9
+2025-11-05 02:45:01,972 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: defer
+2025-11-05 02:45:01,972 INFO    SenderThread:3926539 [sender.py:send_request_defer():388] handle sender defer: 9
+2025-11-05 02:45:01,972 INFO    SenderThread:3926539 [sender.py:transition_state():392] send defer: 10
+2025-11-05 02:45:01,973 DEBUG   SenderThread:3926539 [sender.py:send():235] send: final
+2025-11-05 02:45:01,973 DEBUG   SenderThread:3926539 [sender.py:send():235] send: footer
+2025-11-05 02:45:01,974 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: defer
+2025-11-05 02:45:01,974 INFO    HandlerThread:3926539 [handler.py:handle_request_defer():164] handle defer: 10
+2025-11-05 02:45:01,974 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: defer
+2025-11-05 02:45:01,974 INFO    SenderThread:3926539 [sender.py:send_request_defer():388] handle sender defer: 10
+2025-11-05 02:45:02,073 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: poll_exit
+2025-11-05 02:45:02,073 DEBUG   SenderThread:3926539 [sender.py:send_request():249] send_request: poll_exit
+2025-11-05 02:45:02,073 INFO    SenderThread:3926539 [file_pusher.py:join():150] waiting for file pusher
+2025-11-05 02:45:03,116 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: sampled_history
+2025-11-05 02:45:03,118 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: get_summary
+2025-11-05 02:45:03,119 DEBUG   HandlerThread:3926539 [handler.py:handle_request():141] handle_request: shutdown
+2025-11-05 02:45:03,119 INFO    HandlerThread:3926539 [handler.py:finish():778] shutting down handler
+2025-11-05 02:45:03,974 INFO    WriterThread:3926539 [datastore.py:close():281] close: /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_022804-2s6sjj68/run-2s6sjj68.wandb
+2025-11-05 02:45:04,015 INFO    SenderThread:3926539 [sender.py:finish():1078] shutting down sender
+2025-11-05 02:45:04,015 INFO    SenderThread:3926539 [file_pusher.py:finish():145] shutting down file pusher
+2025-11-05 02:45:04,015 INFO    SenderThread:3926539 [file_pusher.py:join():150] waiting for file pusher
+2025-11-05 02:45:04,018 INFO    MainThread:3926539 [internal.py:handle_exit():82] Internal process exited

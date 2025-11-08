@@ -1,0 +1,656 @@
+  0% 0/50000 [00:00<?, ?it/s]/data/hushuhao-20251019/projects/MTT_FD/distill_pre_2.py:91: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  labels_all.append(class_map[torch.tensor(sample[1]).item()])
+100% 50000/50000 [00:00<00:00, 91315.35it/s]
+50000it [00:00, 3211515.90it/s]
+/data/hushuhao-20251019/projects/MTT_FD/distill_pre_2.py:111: UserWarning: Creating a tensor from a list of numpy.ndarrays is extremely slow. Please consider converting the list to a single numpy.ndarray with numpy.array() before converting to a tensor. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646756402876/work/torch/csrc/utils/tensor_new.cpp:210.)
+  label_syn = torch.tensor([np.ones(args.ipc,dtype=np.int_)*i for i in range(num_classes)], dtype=torch.long, requires_grad=False, device=args.device).view(-1) # [0,0,0, 1,1,1, ..., 9,9,9]
+  0% 1/1001 [00:00<04:39,  3.58it/s]
+Hyper-parameters:
+ {'dataset': 'CIFAR100', 'subset': 'imagenette', 'model': 'ConvNet', 'res': 128, 'ipc': 48, 'eval_mode': 'S', 'num_eval': 5, 'eval_it': 100, 'epoch_eval_train': 1000, 'Iteration': 5000, 'lr_img': 1000.0, 'lr_lr': 1e-05, 'lr_teacher': 0.01, 'lr_init': 0.01, 'batch_real': 256, 'batch_syn': 4800, 'batch_train': 256, 'pix_init': 'real', 'dsa': True, 'dsa_strategy': 'color_crop_cutout_flip_scale_rotate', 'data_path': '/data/hushuhao-20251019/projects/MTT_FD/data', 'buffer_path': '/data/hushuhao-20251019/projects/MTT_FD/buffers', 'expert_epochs': 3, 'syn_steps': 20, 'max_start_epoch': 20, 'zca': True, 'load_all': False, 'no_aug': False, 'texture': False, 'canvas_size': 2, 'canvas_samples': 1, 'max_files': None, 'max_experts': None, 'force_save': False, 'device': 'cuda', 'zca_trans': ZCAWhitening(), 'im_size': [32, 32], 'dc_aug_param': None, 'dsa_param': <utils.ParamDiffAug object at 0x7f36a489aa00>, '_wandb': {}, 'distributed': False}
+Evaluation model pool:  ['ConvNet']
+BUILDING DATASET
+class c = 0: 500 real images
+class c = 1: 500 real images
+class c = 2: 500 real images
+class c = 3: 500 real images
+class c = 4: 500 real images
+class c = 5: 500 real images
+class c = 6: 500 real images
+class c = 7: 500 real images
+class c = 8: 500 real images
+class c = 9: 500 real images
+class c = 10: 500 real images
+class c = 11: 500 real images
+class c = 12: 500 real images
+class c = 13: 500 real images
+class c = 14: 500 real images
+class c = 15: 500 real images
+class c = 16: 500 real images
+class c = 17: 500 real images
+class c = 18: 500 real images
+class c = 19: 500 real images
+class c = 20: 500 real images
+class c = 21: 500 real images
+class c = 22: 500 real images
+class c = 23: 500 real images
+class c = 24: 500 real images
+class c = 25: 500 real images
+class c = 26: 500 real images
+class c = 27: 500 real images
+class c = 28: 500 real images
+class c = 29: 500 real images
+class c = 30: 500 real images
+class c = 31: 500 real images
+class c = 32: 500 real images
+class c = 33: 500 real images
+class c = 34: 500 real images
+class c = 35: 500 real images
+class c = 36: 500 real images
+class c = 37: 500 real images
+class c = 38: 500 real images
+class c = 39: 500 real images
+class c = 40: 500 real images
+class c = 41: 500 real images
+class c = 42: 500 real images
+class c = 43: 500 real images
+class c = 44: 500 real images
+class c = 45: 500 real images
+class c = 46: 500 real images
+class c = 47: 500 real images
+class c = 48: 500 real images
+class c = 49: 500 real images
+class c = 50: 500 real images
+class c = 51: 500 real images
+class c = 52: 500 real images
+class c = 53: 500 real images
+class c = 54: 500 real images
+class c = 55: 500 real images
+class c = 56: 500 real images
+class c = 57: 500 real images
+class c = 58: 500 real images
+class c = 59: 500 real images
+class c = 60: 500 real images
+class c = 61: 500 real images
+class c = 62: 500 real images
+class c = 63: 500 real images
+class c = 64: 500 real images
+class c = 65: 500 real images
+class c = 66: 500 real images
+class c = 67: 500 real images
+class c = 68: 500 real images
+class c = 69: 500 real images
+class c = 70: 500 real images
+class c = 71: 500 real images
+class c = 72: 500 real images
+class c = 73: 500 real images
+class c = 74: 500 real images
+class c = 75: 500 real images
+class c = 76: 500 real images
+class c = 77: 500 real images
+class c = 78: 500 real images
+class c = 79: 500 real images
+class c = 80: 500 real images
+class c = 81: 500 real images
+class c = 82: 500 real images
+class c = 83: 500 real images
+class c = 84: 500 real images
+class c = 85: 500 real images
+class c = 86: 500 real images
+class c = 87: 500 real images
+class c = 88: 500 real images
+class c = 89: 500 real images
+class c = 90: 500 real images
+class c = 91: 500 real images
+class c = 92: 500 real images
+class c = 93: 500 real images
+class c = 94: 500 real images
+class c = 95: 500 real images
+class c = 96: 500 real images
+class c = 97: 500 real images
+class c = 98: 500 real images
+class c = 99: 500 real images
+real images channel 0, mean = 0.0000, std = 0.2707
+real images channel 1, mean = 0.0000, std = 0.2555
+real images channel 2, mean = -0.0000, std = 0.2647
+initialize synthetic data from random real images
+[2025-11-05 03:15:07] training begins
+Expert Dir: /data/hushuhao-20251019/projects/MTT_FD/buffers/CIFAR100/ConvNet
+loading file /data/hushuhao-20251019/projects/MTT_FD/buffers/CIFAR100/ConvNet/replay_buffer_6.pt
+-------------------------
+Evaluation
+model_train = ConvNet, model_eval = ConvNet, iteration = 0
+DSA augmentation strategy:
+ color_crop_cutout_flip_scale_rotate
+DSA augmentation parameters:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100% 997/1001 [03:44<00:00,  4.72it/s]
+100% 1001/1001 [03:46<00:00,  4.42it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100% 1000/1001 [03:36<00:00,  6.19it/s]
+100% 1001/1001 [03:37<00:00,  4.60it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100% 1000/1001 [02:57<00:00,  5.98it/s]
+100% 1001/1001 [02:58<00:00,  5.62it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100% 999/1001 [03:29<00:00,  4.36it/s]
+100% 1001/1001 [03:30<00:00,  4.75it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100% 1001/1001 [03:14<00:00,  5.15it/s]
+[2025-11-05 03:32:14] Evaluate_04: epoch = 1000 train time = 194 s train loss = 1.274668 train acc = 0.8914, test acc = 0.3001
+Evaluate 5 random ConvNet, mean = 0.2962 std = 0.0023
+-------------------------
+loading file /data/hushuhao-20251019/projects/MTT_FD/buffers/CIFAR100/ConvNet/replay_buffer_2.pt
+/data/hushuhao-20251019/conda/envs/distillation/lib/python3.9/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646756402876/work/aten/src/ATen/native/TensorShape.cpp:2228.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+Traceback (most recent call last):
+  File "/data/hushuhao-20251019/projects/MTT_FD/distill_pre_2.py", line 477, in <module>
+    main(args)
+  File "/data/hushuhao-20251019/projects/MTT_FD/distill_pre_2.py", line 368, in main
+    grad = torch.autograd.grad(ce_loss, student_params[-1], create_graph=True)[0]
+  File "/data/hushuhao-20251019/conda/envs/distillation/lib/python3.9/site-packages/torch/autograd/__init__.py", line 275, in grad
+    return Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+RuntimeError: CUDA out of memory. Tried to allocate 2.34 GiB (GPU 0; 79.25 GiB total capacity; 73.03 GiB already allocated; 1.90 GiB free; 75.45 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

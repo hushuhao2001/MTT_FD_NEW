@@ -1,0 +1,581 @@
+nohup: ignoring input
+Files already downloaded and verified
+Files already downloaded and verified
+Train ZCA
+  0%|          | 0/50000 [00:00<?, ?it/s]  2%|▏         | 1088/50000 [00:00<00:04, 10871.61it/s]  4%|▍         | 2176/50000 [00:00<00:04, 10853.39it/s]  7%|▋         | 3262/50000 [00:00<00:05, 9249.73it/s]   8%|▊         | 4211/50000 [00:00<00:04, 9266.30it/s] 10%|█         | 5153/50000 [00:00<00:05, 8782.75it/s] 12%|█▏        | 6043/50000 [00:00<00:05, 7985.90it/s] 14%|█▍        | 6913/50000 [00:00<00:05, 8190.21it/s] 15%|█▌        | 7745/50000 [00:00<00:05, 7994.78it/s] 17%|█▋        | 8627/50000 [00:01<00:05, 8229.81it/s] 19%|█▉        | 9499/50000 [00:01<00:04, 8372.22it/s] 21%|██        | 10393/50000 [00:01<00:04, 8536.49it/s] 23%|██▎       | 11307/50000 [00:01<00:04, 8714.71it/s] 25%|██▍       | 12293/50000 [00:01<00:04, 9054.40it/s] 26%|██▋       | 13231/50000 [00:01<00:04, 9148.86it/s] 28%|██▊       | 14149/50000 [00:01<00:03, 9052.30it/s] 30%|███       | 15112/50000 [00:01<00:03, 9221.77it/s] 32%|███▏      | 16036/50000 [00:01<00:03, 9126.11it/s] 34%|███▍      | 17033/50000 [00:01<00:03, 9374.47it/s] 36%|███▌      | 17972/50000 [00:02<00:03, 9250.01it/s] 38%|███▊      | 18899/50000 [00:02<00:03, 9154.55it/s] 40%|████      | 20007/50000 [00:02<00:03, 9719.57it/s] 42%|████▏     | 20981/50000 [00:02<00:02, 9695.62it/s] 44%|████▍     | 22021/50000 [00:02<00:02, 9901.97it/s] 46%|████▌     | 23086/50000 [00:02<00:02, 10122.90it/s] 48%|████▊     | 24185/50000 [00:02<00:02, 10380.87it/s] 51%|█████     | 25319/50000 [00:02<00:02, 10664.56it/s] 53%|█████▎    | 26435/50000 [00:02<00:02, 10811.81it/s] 55%|█████▌    | 27553/50000 [00:02<00:02, 10920.27it/s] 57%|█████▋    | 28694/50000 [00:03<00:01, 11066.62it/s] 60%|█████▉    | 29849/50000 [00:03<00:01, 11208.63it/s] 62%|██████▏   | 30971/50000 [00:03<00:01, 11148.21it/s] 64%|██████▍   | 32087/50000 [00:03<00:01, 10810.94it/s] 66%|██████▋   | 33171/50000 [00:03<00:01, 10608.79it/s] 68%|██████▊   | 34234/50000 [00:03<00:01, 10456.47it/s] 71%|███████   | 35342/50000 [00:03<00:01, 10634.49it/s] 73%|███████▎  | 36408/50000 [00:03<00:01, 10003.59it/s] 75%|███████▍  | 37417/50000 [00:03<00:01, 9613.00it/s]  77%|███████▋  | 38386/50000 [00:03<00:01, 9348.66it/s] 79%|███████▊  | 39326/50000 [00:04<00:01, 9152.62it/s] 80%|████████  | 40245/50000 [00:04<00:01, 9027.50it/s] 82%|████████▏ | 41150/50000 [00:04<00:00, 8923.10it/s] 84%|████████▍ | 42044/50000 [00:04<00:00, 8830.76it/s] 86%|████████▌ | 42928/50000 [00:04<00:00, 8763.10it/s] 88%|████████▊ | 43805/50000 [00:04<00:00, 8731.10it/s] 89%|████████▉ | 44710/50000 [00:04<00:00, 8821.20it/s] 91%|█████████ | 45593/50000 [00:04<00:00, 8759.27it/s] 93%|█████████▎| 46470/50000 [00:04<00:00, 8744.77it/s] 95%|█████████▍| 47345/50000 [00:05<00:00, 8720.43it/s] 96%|█████████▋| 48218/50000 [00:05<00:00, 8652.89it/s] 98%|█████████▊| 49085/50000 [00:05<00:00, 8656.69it/s]100%|█████████▉| 49951/50000 [00:05<00:00, 8653.54it/s]100%|██████████| 50000/50000 [00:05<00:00, 9376.26it/s]
+Test ZCA
+  0%|          | 0/10000 [00:00<?, ?it/s]  8%|▊         | 817/10000 [00:00<00:01, 8160.92it/s] 17%|█▋        | 1683/10000 [00:00<00:00, 8448.80it/s] 25%|██▌       | 2547/10000 [00:00<00:00, 8534.32it/s] 36%|███▌      | 3570/10000 [00:00<00:00, 9201.24it/s] 47%|████▋     | 4691/10000 [00:00<00:00, 9922.29it/s] 57%|█████▋    | 5684/10000 [00:00<00:00, 9914.09it/s] 68%|██████▊   | 6761/10000 [00:00<00:00, 10192.14it/s] 78%|███████▊  | 7781/10000 [00:00<00:00, 10082.95it/s] 88%|████████▊ | 8791/10000 [00:00<00:00, 10086.03it/s] 98%|█████████▊| 9800/10000 [00:01<00:00, 9793.55it/s] 100%|██████████| 10000/10000 [00:01<00:00, 9658.84it/s]
+Hyper-parameters: 
+ {'dataset': 'CIFAR100', 'subset': 'imagenette', 'model': 'ConvNet', 'res': 128, 'num_experts': 50, 'lr_teacher': 0.01, 'batch_train': 256, 'batch_real': 256, 'dsa': True, 'dsa_strategy': 'color_crop_cutout_flip_scale_rotate', 'data_path': './data', 'buffer_path': './buffers/runD', 'train_epochs': 50, 'zca': True, 'decay': True, 'mom': 0.9, 'l2': 0.0005, 'save_interval': 1, 'device': 'cuda', 'dsa_param': <utils.ParamDiffAug object at 0x7f937443b6d0>, 'zca_trans': ZCAWhitening()}
+BUILDING DATASET
+  0%|          | 0/50000 [00:00<?, ?it/s]/data/hushuhao-20251019/projects/MTT_FD/buffer.py:42: UserWarning: To copy construct from a tensor, it is recommended to use sourceTensor.clone().detach() or sourceTensor.clone().detach().requires_grad_(True), rather than torch.tensor(sourceTensor).
+  labels_all.append(class_map[torch.tensor(sample[1]).item()])
+ 19%|█▊        | 9356/50000 [00:00<00:00, 93555.85it/s] 37%|███▋      | 18712/50000 [00:00<00:00, 90440.56it/s] 56%|█████▌    | 27764/50000 [00:00<00:00, 88365.30it/s] 74%|███████▎  | 36756/50000 [00:00<00:00, 88959.76it/s] 91%|█████████▏| 45658/50000 [00:00<00:00, 79631.57it/s]100%|██████████| 50000/50000 [00:00<00:00, 84013.31it/s]
+0it [00:00, ?it/s]50000it [00:00, 2606355.72it/s]
+/data/hushuhao-20251019/conda/envs/distillation/lib/python3.9/site-packages/torch/functional.py:568: UserWarning: torch.meshgrid: in an upcoming release, it will be required to pass the indexing argument. (Triggered internally at  /opt/conda/conda-bld/pytorch_1646756402876/work/aten/src/ATen/native/TensorShape.cpp:2228.)
+  return _VF.meshgrid(tensors, **kwargs)  # type: ignore[attr-defined]
+class c = 0: 500 real images
+class c = 1: 500 real images
+class c = 2: 500 real images
+class c = 3: 500 real images
+class c = 4: 500 real images
+class c = 5: 500 real images
+class c = 6: 500 real images
+class c = 7: 500 real images
+class c = 8: 500 real images
+class c = 9: 500 real images
+class c = 10: 500 real images
+class c = 11: 500 real images
+class c = 12: 500 real images
+class c = 13: 500 real images
+class c = 14: 500 real images
+class c = 15: 500 real images
+class c = 16: 500 real images
+class c = 17: 500 real images
+class c = 18: 500 real images
+class c = 19: 500 real images
+class c = 20: 500 real images
+class c = 21: 500 real images
+class c = 22: 500 real images
+class c = 23: 500 real images
+class c = 24: 500 real images
+class c = 25: 500 real images
+class c = 26: 500 real images
+class c = 27: 500 real images
+class c = 28: 500 real images
+class c = 29: 500 real images
+class c = 30: 500 real images
+class c = 31: 500 real images
+class c = 32: 500 real images
+class c = 33: 500 real images
+class c = 34: 500 real images
+class c = 35: 500 real images
+class c = 36: 500 real images
+class c = 37: 500 real images
+class c = 38: 500 real images
+class c = 39: 500 real images
+class c = 40: 500 real images
+class c = 41: 500 real images
+class c = 42: 500 real images
+class c = 43: 500 real images
+class c = 44: 500 real images
+class c = 45: 500 real images
+class c = 46: 500 real images
+class c = 47: 500 real images
+class c = 48: 500 real images
+class c = 49: 500 real images
+class c = 50: 500 real images
+class c = 51: 500 real images
+class c = 52: 500 real images
+class c = 53: 500 real images
+class c = 54: 500 real images
+class c = 55: 500 real images
+class c = 56: 500 real images
+class c = 57: 500 real images
+class c = 58: 500 real images
+class c = 59: 500 real images
+class c = 60: 500 real images
+class c = 61: 500 real images
+class c = 62: 500 real images
+class c = 63: 500 real images
+class c = 64: 500 real images
+class c = 65: 500 real images
+class c = 66: 500 real images
+class c = 67: 500 real images
+class c = 68: 500 real images
+class c = 69: 500 real images
+class c = 70: 500 real images
+class c = 71: 500 real images
+class c = 72: 500 real images
+class c = 73: 500 real images
+class c = 74: 500 real images
+class c = 75: 500 real images
+class c = 76: 500 real images
+class c = 77: 500 real images
+class c = 78: 500 real images
+class c = 79: 500 real images
+class c = 80: 500 real images
+class c = 81: 500 real images
+class c = 82: 500 real images
+class c = 83: 500 real images
+class c = 84: 500 real images
+class c = 85: 500 real images
+class c = 86: 500 real images
+class c = 87: 500 real images
+class c = 88: 500 real images
+class c = 89: 500 real images
+class c = 90: 500 real images
+class c = 91: 500 real images
+class c = 92: 500 real images
+class c = 93: 500 real images
+class c = 94: 500 real images
+class c = 95: 500 real images
+class c = 96: 500 real images
+class c = 97: 500 real images
+class c = 98: 500 real images
+class c = 99: 500 real images
+real images channel 0, mean = 0.0000, std = 0.2707
+real images channel 1, mean = 0.0000, std = 0.2555
+real images channel 2, mean = -0.0000, std = 0.2647
+DC augmentation parameters: 
+ {'crop': 4, 'scale': 0.2, 'rotate': 45, 'noise': 0.001, 'strategy': 'crop_scale_rotate'}
+Itr: 0	Epoch: 0	Train Acc: 0.12524	Test Acc: 0.2358
+Itr: 0	Epoch: 1	Train Acc: 0.26566	Test Acc: 0.3226
+Itr: 0	Epoch: 2	Train Acc: 0.33704	Test Acc: 0.3706
+Itr: 0	Epoch: 3	Train Acc: 0.37592	Test Acc: 0.4018
+Itr: 0	Epoch: 4	Train Acc: 0.41154	Test Acc: 0.428
+Itr: 0	Epoch: 5	Train Acc: 0.4406	Test Acc: 0.4444
+Itr: 0	Epoch: 6	Train Acc: 0.46362	Test Acc: 0.4511
+Itr: 0	Epoch: 7	Train Acc: 0.48372	Test Acc: 0.4739
+Itr: 0	Epoch: 8	Train Acc: 0.5047	Test Acc: 0.4746
+Itr: 0	Epoch: 9	Train Acc: 0.51936	Test Acc: 0.4852
+Itr: 0	Epoch: 10	Train Acc: 0.53458	Test Acc: 0.4945
+Itr: 0	Epoch: 11	Train Acc: 0.54644	Test Acc: 0.4976
+Itr: 0	Epoch: 12	Train Acc: 0.56466	Test Acc: 0.5091
+Itr: 0	Epoch: 13	Train Acc: 0.57536	Test Acc: 0.5168
+Itr: 0	Epoch: 14	Train Acc: 0.58748	Test Acc: 0.5131
+Itr: 0	Epoch: 15	Train Acc: 0.5937	Test Acc: 0.5152
+Itr: 0	Epoch: 16	Train Acc: 0.601	Test Acc: 0.5275
+Itr: 0	Epoch: 17	Train Acc: 0.6164	Test Acc: 0.5189
+Itr: 0	Epoch: 18	Train Acc: 0.623	Test Acc: 0.5266
+Itr: 0	Epoch: 19	Train Acc: 0.63612	Test Acc: 0.5228
+Itr: 0	Epoch: 20	Train Acc: 0.64374	Test Acc: 0.5222
+Itr: 0	Epoch: 21	Train Acc: 0.64952	Test Acc: 0.5285
+Itr: 0	Epoch: 22	Train Acc: 0.65164	Test Acc: 0.5306
+Itr: 0	Epoch: 23	Train Acc: 0.66188	Test Acc: 0.537
+Itr: 0	Epoch: 24	Train Acc: 0.67038	Test Acc: 0.5304
+Itr: 0	Epoch: 25	Train Acc: 0.67748	Test Acc: 0.5437
+Itr: 0	Epoch: 26	Train Acc: 0.6848	Test Acc: 0.5419
+Itr: 0	Epoch: 27	Train Acc: 0.74456	Test Acc: 0.5693
+Itr: 0	Epoch: 28	Train Acc: 0.75858	Test Acc: 0.5695
+Itr: 0	Epoch: 29	Train Acc: 0.75612	Test Acc: 0.5686
+Itr: 0	Epoch: 30	Train Acc: 0.75668	Test Acc: 0.5678
+Itr: 0	Epoch: 31	Train Acc: 0.7609	Test Acc: 0.5696
+Itr: 0	Epoch: 32	Train Acc: 0.76856	Test Acc: 0.572
+Itr: 0	Epoch: 33	Train Acc: 0.76092	Test Acc: 0.5677
+Itr: 0	Epoch: 34	Train Acc: 0.77208	Test Acc: 0.5717
+Itr: 0	Epoch: 35	Train Acc: 0.77484	Test Acc: 0.5692
+Itr: 0	Epoch: 36	Train Acc: 0.7689	Test Acc: 0.5684
+Itr: 0	Epoch: 37	Train Acc: 0.76654	Test Acc: 0.5657
+Itr: 0	Epoch: 38	Train Acc: 0.77644	Test Acc: 0.5726
+Itr: 0	Epoch: 39	Train Acc: 0.7716	Test Acc: 0.5698
+Itr: 0	Epoch: 40	Train Acc: 0.7855	Test Acc: 0.5699
+Itr: 0	Epoch: 41	Train Acc: 0.78308	Test Acc: 0.5683
+Itr: 0	Epoch: 42	Train Acc: 0.77254	Test Acc: 0.5686
+Itr: 0	Epoch: 43	Train Acc: 0.77666	Test Acc: 0.5703
+Itr: 0	Epoch: 44	Train Acc: 0.7835	Test Acc: 0.5699
+Itr: 0	Epoch: 45	Train Acc: 0.7923	Test Acc: 0.5684
+Itr: 0	Epoch: 46	Train Acc: 0.7799	Test Acc: 0.5725
+Itr: 0	Epoch: 47	Train Acc: 0.77644	Test Acc: 0.5688
+Itr: 0	Epoch: 48	Train Acc: 0.78118	Test Acc: 0.5695
+Itr: 0	Epoch: 49	Train Acc: 0.78418	Test Acc: 0.5717
+Saving ./buffers/runD/CIFAR100/ConvNet/replay_buffer_0.pt
+Itr: 1	Epoch: 0	Train Acc: 0.12778	Test Acc: 0.2419
+Itr: 1	Epoch: 1	Train Acc: 0.26254	Test Acc: 0.3169
+Itr: 1	Epoch: 2	Train Acc: 0.335	Test Acc: 0.3638
+Itr: 1	Epoch: 3	Train Acc: 0.3772	Test Acc: 0.3896
+Itr: 1	Epoch: 4	Train Acc: 0.40984	Test Acc: 0.4283
+Itr: 1	Epoch: 5	Train Acc: 0.44272	Test Acc: 0.4374
+Itr: 1	Epoch: 6	Train Acc: 0.4627	Test Acc: 0.462
+Itr: 1	Epoch: 7	Train Acc: 0.48636	Test Acc: 0.4646
+Itr: 1	Epoch: 8	Train Acc: 0.49936	Test Acc: 0.4784
+Itr: 1	Epoch: 9	Train Acc: 0.517	Test Acc: 0.4841
+Itr: 1	Epoch: 10	Train Acc: 0.53366	Test Acc: 0.4974
+Itr: 1	Epoch: 11	Train Acc: 0.54698	Test Acc: 0.4964
+Itr: 1	Epoch: 12	Train Acc: 0.56008	Test Acc: 0.5037
+Itr: 1	Epoch: 13	Train Acc: 0.57612	Test Acc: 0.5171
+Itr: 1	Epoch: 14	Train Acc: 0.58176	Test Acc: 0.5216
+Itr: 1	Epoch: 15	Train Acc: 0.5954	Test Acc: 0.5184
+Itr: 1	Epoch: 16	Train Acc: 0.605	Test Acc: 0.5293
+Itr: 1	Epoch: 17	Train Acc: 0.61284	Test Acc: 0.5252
+Itr: 1	Epoch: 18	Train Acc: 0.6255	Test Acc: 0.5256
+Itr: 1	Epoch: 19	Train Acc: 0.63272	Test Acc: 0.5283
+Itr: 1	Epoch: 20	Train Acc: 0.63458	Test Acc: 0.5276
+Itr: 1	Epoch: 21	Train Acc: 0.64566	Test Acc: 0.538
+Itr: 1	Epoch: 22	Train Acc: 0.65524	Test Acc: 0.5345
+Itr: 1	Epoch: 23	Train Acc: 0.65854	Test Acc: 0.5357
+Itr: 1	Epoch: 24	Train Acc: 0.6697	Test Acc: 0.5439
+Itr: 1	Epoch: 25	Train Acc: 0.67652	Test Acc: 0.5426
+Itr: 1	Epoch: 26	Train Acc: 0.68302	Test Acc: 0.5399
+Itr: 1	Epoch: 27	Train Acc: 0.74616	Test Acc: 0.5659
+Itr: 1	Epoch: 28	Train Acc: 0.75738	Test Acc: 0.5713
+Itr: 1	Epoch: 29	Train Acc: 0.75548	Test Acc: 0.569
+Itr: 1	Epoch: 30	Train Acc: 0.75482	Test Acc: 0.5717
+Itr: 1	Epoch: 31	Train Acc: 0.76474	Test Acc: 0.5731
+Itr: 1	Epoch: 32	Train Acc: 0.76328	Test Acc: 0.5724
+Itr: 1	Epoch: 33	Train Acc: 0.76162	Test Acc: 0.5715
+Itr: 1	Epoch: 34	Train Acc: 0.76792	Test Acc: 0.574
+Itr: 1	Epoch: 35	Train Acc: 0.7671	Test Acc: 0.5715
+Itr: 1	Epoch: 36	Train Acc: 0.77468	Test Acc: 0.5751
+Itr: 1	Epoch: 37	Train Acc: 0.76694	Test Acc: 0.5727
+Itr: 1	Epoch: 38	Train Acc: 0.77388	Test Acc: 0.5733
+Itr: 1	Epoch: 39	Train Acc: 0.77252	Test Acc: 0.5747
+Itr: 1	Epoch: 40	Train Acc: 0.77748	Test Acc: 0.5733
+Itr: 1	Epoch: 41	Train Acc: 0.77724	Test Acc: 0.5732
+Itr: 1	Epoch: 42	Train Acc: 0.78204	Test Acc: 0.5747
+Itr: 1	Epoch: 43	Train Acc: 0.77636	Test Acc: 0.5757
+Itr: 1	Epoch: 44	Train Acc: 0.77504	Test Acc: 0.5749
+Itr: 1	Epoch: 45	Train Acc: 0.77914	Test Acc: 0.5752
+Itr: 1	Epoch: 46	Train Acc: 0.77726	Test Acc: 0.5729
+Itr: 1	Epoch: 47	Train Acc: 0.77606	Test Acc: 0.573
+Itr: 1	Epoch: 48	Train Acc: 0.7822	Test Acc: 0.5719
+Itr: 1	Epoch: 49	Train Acc: 0.77958	Test Acc: 0.5751
+Saving ./buffers/runD/CIFAR100/ConvNet/replay_buffer_1.pt
+Itr: 2	Epoch: 0	Train Acc: 0.12194	Test Acc: 0.2388
+Itr: 2	Epoch: 1	Train Acc: 0.26224	Test Acc: 0.3132
+Itr: 2	Epoch: 2	Train Acc: 0.33224	Test Acc: 0.3622
+Itr: 2	Epoch: 3	Train Acc: 0.3735	Test Acc: 0.3944
+Itr: 2	Epoch: 4	Train Acc: 0.40812	Test Acc: 0.4198
+Itr: 2	Epoch: 5	Train Acc: 0.43736	Test Acc: 0.434
+Itr: 2	Epoch: 6	Train Acc: 0.46314	Test Acc: 0.4577
+Itr: 2	Epoch: 7	Train Acc: 0.48352	Test Acc: 0.4625
+Itr: 2	Epoch: 8	Train Acc: 0.503	Test Acc: 0.4689
+Itr: 2	Epoch: 9	Train Acc: 0.51452	Test Acc: 0.4799
+Itr: 2	Epoch: 10	Train Acc: 0.5309	Test Acc: 0.4855
+Itr: 2	Epoch: 11	Train Acc: 0.54654	Test Acc: 0.4912
+Itr: 2	Epoch: 12	Train Acc: 0.5557	Test Acc: 0.4962
+Itr: 2	Epoch: 13	Train Acc: 0.57156	Test Acc: 0.51
+Itr: 2	Epoch: 14	Train Acc: 0.5823	Test Acc: 0.5104
+Itr: 2	Epoch: 15	Train Acc: 0.58712	Test Acc: 0.5106
+Itr: 2	Epoch: 16	Train Acc: 0.60172	Test Acc: 0.5209
+Itr: 2	Epoch: 17	Train Acc: 0.61026	Test Acc: 0.5204
+Itr: 2	Epoch: 18	Train Acc: 0.62042	Test Acc: 0.5276
+Itr: 2	Epoch: 19	Train Acc: 0.62272	Test Acc: 0.5298
+Itr: 2	Epoch: 20	Train Acc: 0.63176	Test Acc: 0.5287
+Itr: 2	Epoch: 21	Train Acc: 0.63864	Test Acc: 0.5254
+Itr: 2	Epoch: 22	Train Acc: 0.64626	Test Acc: 0.5334
+Itr: 2	Epoch: 23	Train Acc: 0.66246	Test Acc: 0.5344
+Itr: 2	Epoch: 24	Train Acc: 0.66568	Test Acc: 0.5296
+Itr: 2	Epoch: 25	Train Acc: 0.67792	Test Acc: 0.5331
+Itr: 2	Epoch: 26	Train Acc: 0.66536	Test Acc: 0.5376
+Itr: 2	Epoch: 27	Train Acc: 0.73362	Test Acc: 0.5622
+Itr: 2	Epoch: 28	Train Acc: 0.75144	Test Acc: 0.5601
+Itr: 2	Epoch: 29	Train Acc: 0.75616	Test Acc: 0.5603
+Itr: 2	Epoch: 30	Train Acc: 0.75622	Test Acc: 0.5635
+Itr: 2	Epoch: 31	Train Acc: 0.76428	Test Acc: 0.5613
+Itr: 2	Epoch: 32	Train Acc: 0.76814	Test Acc: 0.5604
+Itr: 2	Epoch: 33	Train Acc: 0.7661	Test Acc: 0.5639
+Itr: 2	Epoch: 34	Train Acc: 0.76416	Test Acc: 0.5616
+Itr: 2	Epoch: 35	Train Acc: 0.7638	Test Acc: 0.5626
+Itr: 2	Epoch: 36	Train Acc: 0.77106	Test Acc: 0.5612
+Itr: 2	Epoch: 37	Train Acc: 0.76464	Test Acc: 0.565
+Itr: 2	Epoch: 38	Train Acc: 0.766	Test Acc: 0.5656
+Itr: 2	Epoch: 39	Train Acc: 0.76172	Test Acc: 0.5651
+Itr: 2	Epoch: 40	Train Acc: 0.77362	Test Acc: 0.5655
+Itr: 2	Epoch: 41	Train Acc: 0.76638	Test Acc: 0.5647
+Itr: 2	Epoch: 42	Train Acc: 0.77322	Test Acc: 0.5645
+Itr: 2	Epoch: 43	Train Acc: 0.77302	Test Acc: 0.5634
+Itr: 2	Epoch: 44	Train Acc: 0.77694	Test Acc: 0.5652
+Itr: 2	Epoch: 45	Train Acc: 0.77754	Test Acc: 0.5661
+Itr: 2	Epoch: 46	Train Acc: 0.778	Test Acc: 0.5628
+Itr: 2	Epoch: 47	Train Acc: 0.78034	Test Acc: 0.5613
+Itr: 2	Epoch: 48	Train Acc: 0.78546	Test Acc: 0.5661
+Itr: 2	Epoch: 49	Train Acc: 0.77958	Test Acc: 0.5646
+Saving ./buffers/runD/CIFAR100/ConvNet/replay_buffer_2.pt
+Itr: 3	Epoch: 0	Train Acc: 0.12878	Test Acc: 0.2356
+Itr: 3	Epoch: 1	Train Acc: 0.26208	Test Acc: 0.3157
+Itr: 3	Epoch: 2	Train Acc: 0.32414	Test Acc: 0.3638
+Itr: 3	Epoch: 3	Train Acc: 0.3723	Test Acc: 0.4021
+Itr: 3	Epoch: 4	Train Acc: 0.4095	Test Acc: 0.4145
+Itr: 3	Epoch: 5	Train Acc: 0.43876	Test Acc: 0.4485
+Itr: 3	Epoch: 6	Train Acc: 0.46164	Test Acc: 0.4567
+Itr: 3	Epoch: 7	Train Acc: 0.4836	Test Acc: 0.4647
+Itr: 3	Epoch: 8	Train Acc: 0.50206	Test Acc: 0.4774
+Itr: 3	Epoch: 9	Train Acc: 0.5165	Test Acc: 0.4875
+Itr: 3	Epoch: 10	Train Acc: 0.53152	Test Acc: 0.496
+Itr: 3	Epoch: 11	Train Acc: 0.54644	Test Acc: 0.5002
+Itr: 3	Epoch: 12	Train Acc: 0.55298	Test Acc: 0.5058
+Itr: 3	Epoch: 13	Train Acc: 0.56962	Test Acc: 0.5146
+Itr: 3	Epoch: 14	Train Acc: 0.581	Test Acc: 0.5116
+Itr: 3	Epoch: 15	Train Acc: 0.5967	Test Acc: 0.5172
+Itr: 3	Epoch: 16	Train Acc: 0.5947	Test Acc: 0.5238
+Itr: 3	Epoch: 17	Train Acc: 0.61464	Test Acc: 0.5236
+Itr: 3	Epoch: 18	Train Acc: 0.61466	Test Acc: 0.5284
+Itr: 3	Epoch: 19	Train Acc: 0.62224	Test Acc: 0.5251
+Itr: 3	Epoch: 20	Train Acc: 0.63684	Test Acc: 0.5351
+Itr: 3	Epoch: 21	Train Acc: 0.64268	Test Acc: 0.5313
+Itr: 3	Epoch: 22	Train Acc: 0.65088	Test Acc: 0.5361
+Itr: 3	Epoch: 23	Train Acc: 0.65276	Test Acc: 0.5347
+Itr: 3	Epoch: 24	Train Acc: 0.66158	Test Acc: 0.5386
+Itr: 3	Epoch: 25	Train Acc: 0.67002	Test Acc: 0.5347
+Itr: 3	Epoch: 26	Train Acc: 0.6759	Test Acc: 0.5314
+Itr: 3	Epoch: 27	Train Acc: 0.73722	Test Acc: 0.5604
+Itr: 3	Epoch: 28	Train Acc: 0.74728	Test Acc: 0.5624
+Itr: 3	Epoch: 29	Train Acc: 0.75592	Test Acc: 0.5626
+Itr: 3	Epoch: 30	Train Acc: 0.75804	Test Acc: 0.566
+Itr: 3	Epoch: 31	Train Acc: 0.75584	Test Acc: 0.5666
+Itr: 3	Epoch: 32	Train Acc: 0.75628	Test Acc: 0.5675
+Itr: 3	Epoch: 33	Train Acc: 0.75594	Test Acc: 0.5643
+Itr: 3	Epoch: 34	Train Acc: 0.76804	Test Acc: 0.5664
+Itr: 3	Epoch: 35	Train Acc: 0.7663	Test Acc: 0.5649
+Itr: 3	Epoch: 36	Train Acc: 0.76842	Test Acc: 0.5662
+Itr: 3	Epoch: 37	Train Acc: 0.76486	Test Acc: 0.5662
+Itr: 3	Epoch: 38	Train Acc: 0.76956	Test Acc: 0.5677
+Itr: 3	Epoch: 39	Train Acc: 0.77078	Test Acc: 0.5674
+Itr: 3	Epoch: 40	Train Acc: 0.77776	Test Acc: 0.5658
+Itr: 3	Epoch: 41	Train Acc: 0.77962	Test Acc: 0.569
+Itr: 3	Epoch: 42	Train Acc: 0.77354	Test Acc: 0.5661
+Itr: 3	Epoch: 43	Train Acc: 0.77596	Test Acc: 0.5636
+Itr: 3	Epoch: 44	Train Acc: 0.77864	Test Acc: 0.5678
+Itr: 3	Epoch: 45	Train Acc: 0.78066	Test Acc: 0.5678
+Itr: 3	Epoch: 46	Train Acc: 0.78352	Test Acc: 0.5699
+Itr: 3	Epoch: 47	Train Acc: 0.78182	Test Acc: 0.5675
+Itr: 3	Epoch: 48	Train Acc: 0.78186	Test Acc: 0.5666
+Itr: 3	Epoch: 49	Train Acc: 0.77624	Test Acc: 0.5661
+Saving ./buffers/runD/CIFAR100/ConvNet/replay_buffer_3.pt
+Itr: 4	Epoch: 0	Train Acc: 0.13014	Test Acc: 0.2432
+Itr: 4	Epoch: 1	Train Acc: 0.26544	Test Acc: 0.3148
+Itr: 4	Epoch: 2	Train Acc: 0.33138	Test Acc: 0.3651
+Itr: 4	Epoch: 3	Train Acc: 0.37258	Test Acc: 0.3918
+Itr: 4	Epoch: 4	Train Acc: 0.41122	Test Acc: 0.4159
+Itr: 4	Epoch: 5	Train Acc: 0.4354	Test Acc: 0.4412
+Itr: 4	Epoch: 6	Train Acc: 0.46108	Test Acc: 0.4543
+Itr: 4	Epoch: 7	Train Acc: 0.4857	Test Acc: 0.4636
+Itr: 4	Epoch: 8	Train Acc: 0.50174	Test Acc: 0.4751
+Itr: 4	Epoch: 9	Train Acc: 0.5169	Test Acc: 0.4837
+Itr: 4	Epoch: 10	Train Acc: 0.5356	Test Acc: 0.5001
+Itr: 4	Epoch: 11	Train Acc: 0.5475	Test Acc: 0.4894
+Itr: 4	Epoch: 12	Train Acc: 0.56218	Test Acc: 0.5028
+Itr: 4	Epoch: 13	Train Acc: 0.57164	Test Acc: 0.5054
+Itr: 4	Epoch: 14	Train Acc: 0.58584	Test Acc: 0.5081
+Itr: 4	Epoch: 15	Train Acc: 0.58838	Test Acc: 0.5202
+Itr: 4	Epoch: 16	Train Acc: 0.60048	Test Acc: 0.5187
+Itr: 4	Epoch: 17	Train Acc: 0.6143	Test Acc: 0.5253
+Itr: 4	Epoch: 18	Train Acc: 0.62204	Test Acc: 0.5266
+Itr: 4	Epoch: 19	Train Acc: 0.62582	Test Acc: 0.5348
+Itr: 4	Epoch: 20	Train Acc: 0.64556	Test Acc: 0.5399
+Itr: 4	Epoch: 21	Train Acc: 0.64624	Test Acc: 0.538
+Itr: 4	Epoch: 22	Train Acc: 0.65064	Test Acc: 0.5385
+Itr: 4	Epoch: 23	Train Acc: 0.65846	Test Acc: 0.5334
+Itr: 4	Epoch: 24	Train Acc: 0.66576	Test Acc: 0.5313
+Itr: 4	Epoch: 25	Train Acc: 0.68154	Test Acc: 0.534
+Itr: 4	Epoch: 26	Train Acc: 0.68428	Test Acc: 0.5404
+Itr: 4	Epoch: 27	Train Acc: 0.74046	Test Acc: 0.5668
+Itr: 4	Epoch: 28	Train Acc: 0.7551	Test Acc: 0.5694
+Itr: 4	Epoch: 29	Train Acc: 0.75376	Test Acc: 0.5722
+Itr: 4	Epoch: 30	Train Acc: 0.76602	Test Acc: 0.569
+Itr: 4	Epoch: 31	Train Acc: 0.76646	Test Acc: 0.5697
+Itr: 4	Epoch: 32	Train Acc: 0.76176	Test Acc: 0.5708
+Itr: 4	Epoch: 33	Train Acc: 0.77278	Test Acc: 0.5716
+Itr: 4	Epoch: 34	Train Acc: 0.76892	Test Acc: 0.5714
+Itr: 4	Epoch: 35	Train Acc: 0.76754	Test Acc: 0.5726
+Itr: 4	Epoch: 36	Train Acc: 0.76834	Test Acc: 0.5726
+Itr: 4	Epoch: 37	Train Acc: 0.76812	Test Acc: 0.5728
+Itr: 4	Epoch: 38	Train Acc: 0.77138	Test Acc: 0.5714
+Itr: 4	Epoch: 39	Train Acc: 0.76696	Test Acc: 0.5708
+Itr: 4	Epoch: 40	Train Acc: 0.78106	Test Acc: 0.5735
+Itr: 4	Epoch: 41	Train Acc: 0.7742	Test Acc: 0.5726
+Itr: 4	Epoch: 42	Train Acc: 0.7796	Test Acc: 0.5754
+Itr: 4	Epoch: 43	Train Acc: 0.78238	Test Acc: 0.5736
+Itr: 4	Epoch: 44	Train Acc: 0.77982	Test Acc: 0.5698
+Itr: 4	Epoch: 45	Train Acc: 0.78232	Test Acc: 0.5735
+Itr: 4	Epoch: 46	Train Acc: 0.77696	Test Acc: 0.5756
+Itr: 4	Epoch: 47	Train Acc: 0.78326	Test Acc: 0.5728
+Itr: 4	Epoch: 48	Train Acc: 0.78696	Test Acc: 0.5729
+Itr: 4	Epoch: 49	Train Acc: 0.78628	Test Acc: 0.5711
+Saving ./buffers/runD/CIFAR100/ConvNet/replay_buffer_4.pt
+Itr: 5	Epoch: 0	Train Acc: 0.12502	Test Acc: 0.238
+Itr: 5	Epoch: 1	Train Acc: 0.2615	Test Acc: 0.3164
+Itr: 5	Epoch: 2	Train Acc: 0.32354	Test Acc: 0.3547
+Itr: 5	Epoch: 3	Train Acc: 0.37282	Test Acc: 0.3952
+Itr: 5	Epoch: 4	Train Acc: 0.40852	Test Acc: 0.4212
+Itr: 5	Epoch: 5	Train Acc: 0.43578	Test Acc: 0.4419
+Itr: 5	Epoch: 6	Train Acc: 0.46212	Test Acc: 0.457
+Itr: 5	Epoch: 7	Train Acc: 0.4831	Test Acc: 0.4596
+Itr: 5	Epoch: 8	Train Acc: 0.4988	Test Acc: 0.4753
+Itr: 5	Epoch: 9	Train Acc: 0.51586	Test Acc: 0.4791
+Itr: 5	Epoch: 10	Train Acc: 0.5315	Test Acc: 0.4927
+Itr: 5	Epoch: 11	Train Acc: 0.54584	Test Acc: 0.5019
+Itr: 5	Epoch: 12	Train Acc: 0.5573	Test Acc: 0.5037
+Itr: 5	Epoch: 13	Train Acc: 0.56692	Test Acc: 0.5129
+Itr: 5	Epoch: 14	Train Acc: 0.5885	Test Acc: 0.5216
+Itr: 5	Epoch: 15	Train Acc: 0.59552	Test Acc: 0.5231
+Itr: 5	Epoch: 16	Train Acc: 0.604	Test Acc: 0.5139
+Itr: 5	Epoch: 17	Train Acc: 0.61136	Test Acc: 0.5359
+Itr: 5	Epoch: 18	Train Acc: 0.62338	Test Acc: 0.5229
+Itr: 5	Epoch: 19	Train Acc: 0.62524	Test Acc: 0.5271
+Itr: 5	Epoch: 20	Train Acc: 0.63534	Test Acc: 0.5379
+Itr: 5	Epoch: 21	Train Acc: 0.6471	Test Acc: 0.5325
+Itr: 5	Epoch: 22	Train Acc: 0.65166	Test Acc: 0.5353
+Itr: 5	Epoch: 23	Train Acc: 0.66746	Test Acc: 0.5391
+Itr: 5	Epoch: 24	Train Acc: 0.665	Test Acc: 0.5469
+Itr: 5	Epoch: 25	Train Acc: 0.67324	Test Acc: 0.543
+Itr: 5	Epoch: 26	Train Acc: 0.67662	Test Acc: 0.546
+Itr: 5	Epoch: 27	Train Acc: 0.7408	Test Acc: 0.5674
+Itr: 5	Epoch: 28	Train Acc: 0.7614	Test Acc: 0.5674
+Itr: 5	Epoch: 29	Train Acc: 0.75982	Test Acc: 0.5675
+Itr: 5	Epoch: 30	Train Acc: 0.76108	Test Acc: 0.5689
+Itr: 5	Epoch: 31	Train Acc: 0.76156	Test Acc: 0.5686
+Itr: 5	Epoch: 32	Train Acc: 0.76418	Test Acc: 0.5697
+Itr: 5	Epoch: 33	Train Acc: 0.76314	Test Acc: 0.5694
+Itr: 5	Epoch: 34	Train Acc: 0.76468	Test Acc: 0.5717
+Itr: 5	Epoch: 35	Train Acc: 0.77166	Test Acc: 0.5708
+Itr: 5	Epoch: 36	Train Acc: 0.76778	Test Acc: 0.5714
+Itr: 5	Epoch: 37	Train Acc: 0.76716	Test Acc: 0.572
+Itr: 5	Epoch: 38	Train Acc: 0.77516	Test Acc: 0.5747
+Itr: 5	Epoch: 39	Train Acc: 0.76868	Test Acc: 0.5725
+Itr: 5	Epoch: 40	Train Acc: 0.77962	Test Acc: 0.5708
+Itr: 5	Epoch: 41	Train Acc: 0.77486	Test Acc: 0.5717
+Itr: 5	Epoch: 42	Train Acc: 0.77366	Test Acc: 0.5732
+Itr: 5	Epoch: 43	Train Acc: 0.78306	Test Acc: 0.5727
+Itr: 5	Epoch: 44	Train Acc: 0.7812	Test Acc: 0.5714
+Itr: 5	Epoch: 45	Train Acc: 0.78188	Test Acc: 0.5738
+Itr: 5	Epoch: 46	Train Acc: 0.78376	Test Acc: 0.5733
+Itr: 5	Epoch: 47	Train Acc: 0.78432	Test Acc: 0.5754
+Itr: 5	Epoch: 48	Train Acc: 0.77846	Test Acc: 0.5765
+Itr: 5	Epoch: 49	Train Acc: 0.77988	Test Acc: 0.5723
+Saving ./buffers/runD/CIFAR100/ConvNet/replay_buffer_5.pt
+Itr: 6	Epoch: 0	Train Acc: 0.1264	Test Acc: 0.2385
+Itr: 6	Epoch: 1	Train Acc: 0.26238	Test Acc: 0.3177
+Itr: 6	Epoch: 2	Train Acc: 0.3263	Test Acc: 0.3692
+Itr: 6	Epoch: 3	Train Acc: 0.37354	Test Acc: 0.3971
+Itr: 6	Epoch: 4	Train Acc: 0.40988	Test Acc: 0.4225
+Itr: 6	Epoch: 5	Train Acc: 0.43712	Test Acc: 0.4535
+Itr: 6	Epoch: 6	Train Acc: 0.46288	Test Acc: 0.4561
+Itr: 6	Epoch: 7	Train Acc: 0.4873	Test Acc: 0.4673
+Itr: 6	Epoch: 8	Train Acc: 0.50458	Test Acc: 0.4874
+Itr: 6	Epoch: 9	Train Acc: 0.52446	Test Acc: 0.4885
+Itr: 6	Epoch: 10	Train Acc: 0.53184	Test Acc: 0.4975
+Itr: 6	Epoch: 11	Train Acc: 0.54778	Test Acc: 0.5054
+Itr: 6	Epoch: 12	Train Acc: 0.5625	Test Acc: 0.5079
+Itr: 6	Epoch: 13	Train Acc: 0.57944	Test Acc: 0.5096
+Itr: 6	Epoch: 14	Train Acc: 0.5812	Test Acc: 0.5242
+Itr: 6	Epoch: 15	Train Acc: 0.59528	Test Acc: 0.5204
+Itr: 6	Epoch: 16	Train Acc: 0.60378	Test Acc: 0.5238
+Itr: 6	Epoch: 17	Train Acc: 0.61768	Test Acc: 0.5263
+Itr: 6	Epoch: 18	Train Acc: 0.6243	Test Acc: 0.5276
+Itr: 6	Epoch: 19	Train Acc: 0.63128	Test Acc: 0.5299
+Itr: 6	Epoch: 20	Train Acc: 0.64038	Test Acc: 0.5315
+Itr: 6	Epoch: 21	Train Acc: 0.65024	Test Acc: 0.533
+Itr: 6	Epoch: 22	Train Acc: 0.6594	Test Acc: 0.5335
+Itr: 6	Epoch: 23	Train Acc: 0.6646	Test Acc: 0.5374
+Itr: 6	Epoch: 24	Train Acc: 0.66862	Test Acc: 0.5323
+Itr: 6	Epoch: 25	Train Acc: 0.67808	Test Acc: 0.5375
+Itr: 6	Epoch: 26	Train Acc: 0.67926	Test Acc: 0.5363
+Itr: 6	Epoch: 27	Train Acc: 0.73718	Test Acc: 0.5654
+Itr: 6	Epoch: 28	Train Acc: 0.75982	Test Acc: 0.5683
+Itr: 6	Epoch: 29	Train Acc: 0.74928	Test Acc: 0.5722
+Itr: 6	Epoch: 30	Train Acc: 0.76118	Test Acc: 0.5726
+Itr: 6	Epoch: 31	Train Acc: 0.76534	Test Acc: 0.573
+Itr: 6	Epoch: 32	Train Acc: 0.76368	Test Acc: 0.5714
+Itr: 6	Epoch: 33	Train Acc: 0.76776	Test Acc: 0.5745
+Itr: 6	Epoch: 34	Train Acc: 0.77146	Test Acc: 0.5742
+Itr: 6	Epoch: 35	Train Acc: 0.77126	Test Acc: 0.5719
+Itr: 6	Epoch: 36	Train Acc: 0.77238	Test Acc: 0.5729
+Itr: 6	Epoch: 37	Train Acc: 0.76676	Test Acc: 0.5731
+Itr: 6	Epoch: 38	Train Acc: 0.77192	Test Acc: 0.5736
+Itr: 6	Epoch: 39	Train Acc: 0.778	Test Acc: 0.5718
+Itr: 6	Epoch: 40	Train Acc: 0.77558	Test Acc: 0.5747
+Itr: 6	Epoch: 41	Train Acc: 0.77578	Test Acc: 0.5757
+Itr: 6	Epoch: 42	Train Acc: 0.77828	Test Acc: 0.5751
+Itr: 6	Epoch: 43	Train Acc: 0.77624	Test Acc: 0.5759
+Itr: 6	Epoch: 44	Train Acc: 0.77748	Test Acc: 0.5767
+Itr: 6	Epoch: 45	Train Acc: 0.77818	Test Acc: 0.576
+Itr: 6	Epoch: 46	Train Acc: 0.78986	Test Acc: 0.5756
+Itr: 6	Epoch: 47	Train Acc: 0.78246	Test Acc: 0.5713
+Itr: 6	Epoch: 48	Train Acc: 0.78174	Test Acc: 0.5764
+Itr: 6	Epoch: 49	Train Acc: 0.78342	Test Acc: 0.5742
+Saving ./buffers/runD/CIFAR100/ConvNet/replay_buffer_6.pt
+Itr: 7	Epoch: 0	Train Acc: 0.12334	Test Acc: 0.243
+Itr: 7	Epoch: 1	Train Acc: 0.26178	Test Acc: 0.3132
+Itr: 7	Epoch: 2	Train Acc: 0.32478	Test Acc: 0.3602
+Itr: 7	Epoch: 3	Train Acc: 0.372	Test Acc: 0.3968
+Itr: 7	Epoch: 4	Train Acc: 0.41152	Test Acc: 0.4235
+Itr: 7	Epoch: 5	Train Acc: 0.43654	Test Acc: 0.4407
+Itr: 7	Epoch: 6	Train Acc: 0.46348	Test Acc: 0.4619
+Itr: 7	Epoch: 7	Train Acc: 0.48112	Test Acc: 0.4613
+Itr: 7	Epoch: 8	Train Acc: 0.49958	Test Acc: 0.4807
+Itr: 7	Epoch: 9	Train Acc: 0.52252	Test Acc: 0.4865
+Itr: 7	Epoch: 10	Train Acc: 0.53366	Test Acc: 0.4968
+Itr: 7	Epoch: 11	Train Acc: 0.54334	Test Acc: 0.4935
+Itr: 7	Epoch: 12	Train Acc: 0.55528	Test Acc: 0.5139
+Itr: 7	Epoch: 13	Train Acc: 0.56778	Test Acc: 0.507
+Itr: 7	Epoch: 14	Train Acc: 0.5821	Test Acc: 0.5106
+Itr: 7	Epoch: 15	Train Acc: 0.58756	Test Acc: 0.5176
+Itr: 7	Epoch: 16	Train Acc: 0.60698	Test Acc: 0.5231
+Itr: 7	Epoch: 17	Train Acc: 0.60986	Test Acc: 0.5182
+Itr: 7	Epoch: 18	Train Acc: 0.6148	Test Acc: 0.5196
+Itr: 7	Epoch: 19	Train Acc: 0.62736	Test Acc: 0.5247
+Itr: 7	Epoch: 20	Train Acc: 0.63838	Test Acc: 0.5288
+Itr: 7	Epoch: 21	Train Acc: 0.64844	Test Acc: 0.5304
+Itr: 7	Epoch: 22	Train Acc: 0.66184	Test Acc: 0.5282
+Itr: 7	Epoch: 23	Train Acc: 0.65992	Test Acc: 0.5364
+Itr: 7	Epoch: 24	Train Acc: 0.6579	Test Acc: 0.533
+Itr: 7	Epoch: 25	Train Acc: 0.67976	Test Acc: 0.5363
+Itr: 7	Epoch: 26	Train Acc: 0.6841	Test Acc: 0.5277
+Itr: 7	Epoch: 27	Train Acc: 0.74516	Test Acc: 0.5603
+Itr: 7	Epoch: 28	Train Acc: 0.75144	Test Acc: 0.5641
+Itr: 7	Epoch: 29	Train Acc: 0.75506	Test Acc: 0.5654
+Itr: 7	Epoch: 30	Train Acc: 0.75798	Test Acc: 0.565
+Itr: 7	Epoch: 31	Train Acc: 0.75852	Test Acc: 0.5686
+Itr: 7	Epoch: 32	Train Acc: 0.75828	Test Acc: 0.5662
+Itr: 7	Epoch: 33	Train Acc: 0.76366	Test Acc: 0.5676
+Itr: 7	Epoch: 34	Train Acc: 0.761	Test Acc: 0.5668
+Itr: 7	Epoch: 35	Train Acc: 0.75654	Test Acc: 0.567
+Itr: 7	Epoch: 36	Train Acc: 0.76476	Test Acc: 0.5673
+Itr: 7	Epoch: 37	Train Acc: 0.76944	Test Acc: 0.5664
+Itr: 7	Epoch: 38	Train Acc: 0.77968	Test Acc: 0.5671
+Itr: 7	Epoch: 39	Train Acc: 0.7708	Test Acc: 0.5662
+Itr: 7	Epoch: 40	Train Acc: 0.7709	Test Acc: 0.5662
+Itr: 7	Epoch: 41	Train Acc: 0.77088	Test Acc: 0.5699
+Itr: 7	Epoch: 42	Train Acc: 0.77206	Test Acc: 0.567
+Itr: 7	Epoch: 43	Train Acc: 0.76814	Test Acc: 0.5687
+Itr: 7	Epoch: 44	Train Acc: 0.76976	Test Acc: 0.5693
+Itr: 7	Epoch: 45	Train Acc: 0.77564	Test Acc: 0.5675
+Itr: 7	Epoch: 46	Train Acc: 0.7785	Test Acc: 0.567
+Itr: 7	Epoch: 47	Train Acc: 0.77884	Test Acc: 0.5673
+Itr: 7	Epoch: 48	Train Acc: 0.77678	Test Acc: 0.5694
+Itr: 7	Epoch: 49	Train Acc: 0.77674	Test Acc: 0.5709
+Saving ./buffers/runD/CIFAR100/ConvNet/replay_buffer_7.pt
+Itr: 8	Epoch: 0	Train Acc: 0.12392	Test Acc: 0.237
+Itr: 8	Epoch: 1	Train Acc: 0.26436	Test Acc: 0.3225
+Itr: 8	Epoch: 2	Train Acc: 0.33708	Test Acc: 0.3689
+Itr: 8	Epoch: 3	Train Acc: 0.37822	Test Acc: 0.4096
+Itr: 8	Epoch: 4	Train Acc: 0.41366	Test Acc: 0.4271
+Itr: 8	Epoch: 5	Train Acc: 0.43602	Test Acc: 0.4367
+Itr: 8	Epoch: 6	Train Acc: 0.4627	Test Acc: 0.4657
+Itr: 8	Epoch: 7	Train Acc: 0.48294	Test Acc: 0.473
+Itr: 8	Epoch: 8	Train Acc: 0.50224	Test Acc: 0.4785
+Itr: 8	Epoch: 9	Train Acc: 0.5204	Test Acc: 0.4861
+Itr: 8	Epoch: 10	Train Acc: 0.53552	Test Acc: 0.495
+Itr: 8	Epoch: 11	Train Acc: 0.5446	Test Acc: 0.4972
+Itr: 8	Epoch: 12	Train Acc: 0.55328	Test Acc: 0.5047
+Itr: 8	Epoch: 13	Train Acc: 0.57374	Test Acc: 0.5087
+Itr: 8	Epoch: 14	Train Acc: 0.57518	Test Acc: 0.5142
+Itr: 8	Epoch: 15	Train Acc: 0.59178	Test Acc: 0.5193
+Itr: 8	Epoch: 16	Train Acc: 0.59746	Test Acc: 0.5286
+Itr: 8	Epoch: 17	Train Acc: 0.61092	Test Acc: 0.5218
+Itr: 8	Epoch: 18	Train Acc: 0.61334	Test Acc: 0.53
+Itr: 8	Epoch: 19	Train Acc: 0.62348	Test Acc: 0.5317
+Itr: 8	Epoch: 20	Train Acc: 0.64092	Test Acc: 0.5301
+Itr: 8	Epoch: 21	Train Acc: 0.6402	Test Acc: 0.5369
+Itr: 8	Epoch: 22	Train Acc: 0.65436	Test Acc: 0.5388
+Itr: 8	Epoch: 23	Train Acc: 0.66266	Test Acc: 0.5376
+Itr: 8	Epoch: 24	Train Acc: 0.65752	Test Acc: 0.5443
+Itr: 8	Epoch: 25	Train Acc: 0.67212	Test Acc: 0.5398
+Itr: 8	Epoch: 26	Train Acc: 0.67706	Test Acc: 0.5383
+Itr: 8	Epoch: 27	Train Acc: 0.74456	Test Acc: 0.5678
+Itr: 8	Epoch: 28	Train Acc: 0.75098	Test Acc: 0.5668
+Itr: 8	Epoch: 29	Train Acc: 0.7515	Test Acc: 0.5695
+Itr: 8	Epoch: 30	Train Acc: 0.7539	Test Acc: 0.5692
+Itr: 8	Epoch: 31	Train Acc: 0.76102	Test Acc: 0.5669
+Itr: 8	Epoch: 32	Train Acc: 0.76832	Test Acc: 0.5693
+Itr: 8	Epoch: 33	Train Acc: 0.75966	Test Acc: 0.5672
+Itr: 8	Epoch: 34	Train Acc: 0.76228	Test Acc: 0.5701
+Itr: 8	Epoch: 35	Train Acc: 0.75998	Test Acc: 0.5699
+Itr: 8	Epoch: 36	Train Acc: 0.76168	Test Acc: 0.5714
+Itr: 8	Epoch: 37	Train Acc: 0.77306	Test Acc: 0.5688
+Itr: 8	Epoch: 38	Train Acc: 0.77198	Test Acc: 0.5694
+Itr: 8	Epoch: 39	Train Acc: 0.7708	Test Acc: 0.5715
+Itr: 8	Epoch: 40	Train Acc: 0.77612	Test Acc: 0.5689
+Itr: 8	Epoch: 41	Train Acc: 0.77522	Test Acc: 0.572
+Itr: 8	Epoch: 42	Train Acc: 0.77668	Test Acc: 0.5708
+Itr: 8	Epoch: 43	Train Acc: 0.7775	Test Acc: 0.5709
+Itr: 8	Epoch: 44	Train Acc: 0.78114	Test Acc: 0.5734
+Itr: 8	Epoch: 45	Train Acc: 0.78346	Test Acc: 0.5688
+Itr: 8	Epoch: 46	Train Acc: 0.77762	Test Acc: 0.5717
+Itr: 8	Epoch: 47	Train Acc: 0.78296	Test Acc: 0.5741
+Itr: 8	Epoch: 48	Train Acc: 0.78736	Test Acc: 0.5732
+Itr: 8	Epoch: 49	Train Acc: 0.78372	Test Acc: 0.5714
+Saving ./buffers/runD/CIFAR100/ConvNet/replay_buffer_8.pt
+Itr: 9	Epoch: 0	Train Acc: 0.12492	Test Acc: 0.2369

@@ -1,0 +1,25 @@
+2025-11-05 02:54:31,845 INFO    MainThread:12828 [wandb_setup.py:_flush():75] Loading settings from /home/hushuhao-20251019/.config/wandb/settings
+2025-11-05 02:54:31,846 INFO    MainThread:12828 [wandb_setup.py:_flush():75] Loading settings from /data/hushuhao-20251019/projects/MTT_FD/wandb/settings
+2025-11-05 02:54:31,846 INFO    MainThread:12828 [wandb_setup.py:_flush():75] Loading settings from environment variables: {}
+2025-11-05 02:54:31,846 INFO    MainThread:12828 [wandb_setup.py:_flush():75] Inferring run settings from compute environment: {'program_relpath': 'distill_pre_2.py', 'program': '/data/hushuhao-20251019/projects/MTT_FD/distill_pre_2.py'}
+2025-11-05 02:54:31,846 INFO    MainThread:12828 [wandb_init.py:_log_setup():405] Logging user logs to /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_025431-2gpwbyeh/logs/debug.log
+2025-11-05 02:54:31,846 INFO    MainThread:12828 [wandb_init.py:_log_setup():406] Logging internal logs to /data/hushuhao-20251019/projects/MTT_FD/wandb/run-20251105_025431-2gpwbyeh/logs/debug-internal.log
+2025-11-05 02:54:31,846 INFO    MainThread:12828 [wandb_init.py:init():439] calling init triggers
+2025-11-05 02:54:31,846 INFO    MainThread:12828 [wandb_init.py:init():442] wandb.init called with sweep_config: {}
+config: {'dataset': 'CIFAR100', 'subset': 'imagenette', 'model': 'ConvNet', 'res': 128, 'ipc': 48, 'eval_mode': 'S', 'num_eval': 5, 'eval_it': 100, 'epoch_eval_train': 1000, 'Iteration': 5000, 'lr_img': 1000.0, 'lr_lr': 1e-05, 'lr_teacher': 0.01, 'lr_init': 0.01, 'batch_real': 256, 'batch_syn': None, 'batch_train': 256, 'pix_init': 'real', 'dsa': True, 'dsa_strategy': 'color_crop_cutout_flip_scale_rotate', 'data_path': '/data/hushuhao-20251019/projects/MTT_FD/data', 'buffer_path': '/data/hushuhao-20251019/projects/MTT_FD/buffers', 'expert_epochs': 3, 'syn_steps': 20, 'max_start_epoch': 20, 'zca': True, 'load_all': False, 'no_aug': False, 'texture': False, 'canvas_size': 2, 'canvas_samples': 1, 'max_files': None, 'max_experts': None, 'force_save': False, 'device': 'cuda', 'zca_trans': ZCAWhitening(), 'im_size': (32, 32), 'dc_aug_param': None, 'dsa_param': <utils.ParamDiffAug object at 0x7fcdb9d91a00>}
+2025-11-05 02:54:31,846 INFO    MainThread:12828 [wandb_init.py:init():492] starting backend
+2025-11-05 02:54:31,846 INFO    MainThread:12828 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2025-11-05 02:54:31,917 INFO    MainThread:12828 [backend.py:ensure_launched():219] starting backend process...
+2025-11-05 02:54:31,991 INFO    MainThread:12828 [backend.py:ensure_launched():224] started backend process with pid: 12989
+2025-11-05 02:54:31,993 INFO    MainThread:12828 [wandb_init.py:init():501] backend started and connected
+2025-11-05 02:54:32,000 INFO    MainThread:12828 [wandb_init.py:init():565] updated telemetry
+2025-11-05 02:54:32,002 INFO    MainThread:12828 [wandb_init.py:init():596] communicating run to backend with 30 second timeout
+2025-11-05 02:54:33,595 INFO    MainThread:12828 [wandb_run.py:_on_init():1759] communicating current version
+2025-11-05 02:54:34,844 INFO    MainThread:12828 [wandb_run.py:_on_init():1763] got version response upgrade_message: "wandb version 0.22.3 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2025-11-05 02:54:34,844 INFO    MainThread:12828 [wandb_init.py:init():625] starting run threads in backend
+2025-11-05 02:54:35,861 INFO    MainThread:12828 [wandb_run.py:_console_start():1733] atexit reg
+2025-11-05 02:54:35,862 INFO    MainThread:12828 [wandb_run.py:_redirect():1606] redirect: SettingsConsole.REDIRECT
+2025-11-05 02:54:35,863 INFO    MainThread:12828 [wandb_run.py:_redirect():1611] Redirecting console.
+2025-11-05 02:54:35,865 INFO    MainThread:12828 [wandb_run.py:_redirect():1667] Redirects installed.
+2025-11-05 02:54:35,866 INFO    MainThread:12828 [wandb_init.py:init():664] run started, returning control to user process

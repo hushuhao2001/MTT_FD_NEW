@@ -1,0 +1,11 @@
+data/
+buffers/
+logged_files/
+res/
+*.pt
+*.pth
+__pycache__/
+*.pyc
+.vscode/
+.idea/
+.DS_Store
